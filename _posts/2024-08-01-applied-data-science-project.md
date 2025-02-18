@@ -1,7 +1,7 @@
 ---
 layout: post
-author: Name
-title: "Applied Data Science Project Documentation"
+author: Ivy Loi
+title: "Applied Data Science Project"
 categories: ITD214
 ---
 ## Project Background
