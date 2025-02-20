@@ -85,6 +85,19 @@ Several prominent words that stand out: "account", "bank", "banking", "service",
 Based on this word cloud, it can be inferred that the reviews are predominantly positive and focus on core banking services like accounts, general service quality, and specific features like mobile apps.
 ![image](https://github.com/user-attachments/assets/6132c6ca-2cb0-41f1-b9fb-370fb2251b49)
 
+**Create list of bank review document**
+Map the rating titles into sentiments groupings of "positive", "neutral" and "negative" for more simplified analysis. The rationale behind mapping sentiments in the sentiment mapping dictionary is to simplify the process of categorizing and analyzing textual data, specifically reviews, into predefined sentiment categories (e.g., "Positive," "Neutral," "Negative"). 
+
+Below is the sentiment mapping designed to cover clear and well-known expressions of sentiment:
+Positive: "Great!", "Blown Away!", "Excellent!", "Pretty good"
+Neutral: "Satisfactory", "Just OK", "Expected more“
+Negative: "Unacceptable", "Bad", "Really Bad"
+![image](https://github.com/user-attachments/assets/d9c402a3-0d14-4eb5-b533-182c4eb121b9)
+
+
+
+
+
 
 
 ### Modelling
