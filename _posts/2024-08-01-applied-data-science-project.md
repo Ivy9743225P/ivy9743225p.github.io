@@ -95,6 +95,11 @@ Negative: "Unacceptable", "Bad", "Really Bad"
 ![image](https://github.com/user-attachments/assets/d9c402a3-0d14-4eb5-b533-182c4eb121b9)
 
 
+**Sentiment Distribution**
+The dataset is imbalanced, with majority of rows labeled as Positive, followed by Neutral and Negative sentiment which shows most of the customers have positive experiences. 
+For Machine Learning model, to avoid biasness from the imbalanced data, some techniques can be used to overcome imbalance dataset. One of them would be Resampling techniques - Oversampling (increase Negative / Neutral samples) or  Undersampling  (reduce Positive samples).
+![image](https://github.com/user-attachments/assets/e28975da-5586-43f2-bbd0-434bf263fc2b)
+
 
 
 
