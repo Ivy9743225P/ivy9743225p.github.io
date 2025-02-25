@@ -372,7 +372,7 @@ IJJ takes action to improve
 IJJ measures the impact of those actions
 The cycle repeats
 
-![image](https://github.com/user-attachments/assets/ab9d7eb6-c536-4816-9562-8413afc6ab27)
+![image](https://github.com/user-attachments/assets/e026616e-3f6a-476d-a10e-9ccfac9d33e0)
 
 
 ## AI Ethics 🤖
