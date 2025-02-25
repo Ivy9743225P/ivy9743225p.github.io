@@ -53,25 +53,25 @@ Data Types: ‘author’ (string), ‘date’ (string), ‘address’(string), �
 
 Column Description
 
-author: The user who authored the review, providing valuable insights into the reviewer's identity and perspective.
+-author: The user who authored the review, providing valuable insights into the reviewer's identity and perspective.
 
-date: The date when the review was submitted, offering a temporal dimension to the dataset and enabling time-based analysis.
+-date: The date when the review was submitted, offering a temporal dimension to the dataset and enabling time-based analysis.
 
-address: The geographical location from which the review was written, contributing to understanding regional trends and variations in banking experiences.
+-address: The geographical location from which the review was written, contributing to understanding regional trends and variations in banking experiences.
 
-bank: The user's numerical assessment of the bank's service, indicating user satisfaction on a numerical scale.
+-bank: The user's numerical assessment of the bank's service, indicating user satisfaction on a numerical scale.
 
-**rating**: The user who authored the review, providing valuable insights into the reviewer's identity and perspective.
+-**rating**: The user who authored the review, providing valuable insights into the reviewer's identity and perspective.
 
-**review_title_by_user**: The user-assigned title to their review, summarizing the essence of their feedback in a concise manner.
+-**review_title_by_user**: The user-assigned title to their review, summarizing the essence of their feedback in a concise manner.
 
-**review**: The detailed content of the user's review about the bank, providing the primary textual data for analysis and insights.
+-**review**: The detailed content of the user's review about the bank, providing the primary textual data for analysis and insights.
 
-bank_image: The URL pointing to the bank's logo or image relevant to the review, facilitating visual associations with the bank.
+-bank_image: The URL pointing to the bank's logo or image relevant to the review, facilitating visual associations with the bank.
 
-**rating_title_by_user**: The user-assigned title to their rating, potentially offering additional context to the rating value.
+-**rating_title_by_user**: The user-assigned title to their rating, potentially offering additional context to the rating value.
 
-useful_count: The count of users who found the review helpful, reflecting the impact and usefulness of the review among other users.
+-useful_count: The count of users who found the review helpful, reflecting the impact and usefulness of the review among other users.
 
 
 **Base information on dataset**
