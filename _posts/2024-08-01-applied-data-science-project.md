@@ -290,7 +290,7 @@ Undersampling (RandomUnderSampler) & Oversampling (SMOTE) to handle imbalance da
 -For Class 0, precision is relatively low at 0.33, indicating the model may incorrectly classifies some Class 0 samples as other classes. The recall is very low (0.14) which indicate g the model imay be missing most of the Class 0 instances.
 -Macro Avg F1-score at 0.36 (improved from 0.31) reflecting a poor balance among the three classes.
 
-##### Hyperparameter tuning need to be applied to help improve the performnce of the imbalanced and resampled data.
+**Hyperparameter tuning need to be applied to help improve the performnce of the imbalanced and resampled data.**
 
 ![image](https://github.com/user-attachments/assets/f54eac15-ee2e-484b-87af-29b2a428d9e0)
 
