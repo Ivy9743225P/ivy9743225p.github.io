@@ -295,7 +295,7 @@ Undersampling (RandomUnderSampler) & Oversampling (SMOTE) to handle imbalance da
 ![image](https://github.com/user-attachments/assets/f54eac15-ee2e-484b-87af-29b2a428d9e0)
 
 
-### Hyperparameter Tuning & Model Evaluation
+### Hyperparameter Tuning & Model Evaluation 🧪
 
 Key Takeaways:
 
@@ -340,17 +340,42 @@ We also looked at how these "resampled data" models are predicting on positive b
 ![image](https://github.com/user-attachments/assets/e74f28a3-119c-4730-aad4-0dc211e6ceeb)
 
 
+## Final Conclusion & Recommendation 🕵️
 
+While it is important to predict positive reviews, the identification of neutral and negative reviews are equally or more crucial. In banking, overlooking negative or neutral feedback can have serious consequences (reputational damage, regulatory issues, customer churn). We need to understand customer real feedback and thoughts, to have better overall view of customer sentiment which in the long run build more trust. Identifying negative and neutral feedback is essential for improving customer satisfaction and addressing underlying issues.
 
-## Final Conclusion & Recommendation
-Explain the analysis and recommendations
+In conclusion, "Logistics Regression (Resampled data) -Tuned" model is generally the better option for analyzing bank reviews. It provides a more balanced approach that prioritizes accuracy and risk mitigation as compared with the other models.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
+Another alternative would be to use both models - model with resample data can be used for internal purpose, risk management and customer/service recovery and model with imbalance data that are good at predicting positive reviews, for marketing purpose.
 
-## AI Ethics
+![image.png](attachment:24a1fef0-9a9b-4d68-b2b1-7f8e1d89b457.png)
+
+The next step for IJJ would be to deploy the model for business use.
+
+Deploy model for batch processing or real-time. IJJ can run sentiment analysis on periodic basis on large volume of customer feedback.
+
+From there, identify and categorize the negative sentiments into different groupings to identify critical areas for improvement - customer services, product issues, new products, loan issues etc. Mitigation/recommendation can be made on policy based on customer complaints. Training of employees based on interactions and feedback rated negatively by customers. Tracking of sentiment trends over time should be implemented to measure service improvement (leverage of visualization tool such as Power BI or Tableau). This will then help with driving customer experience and build trust, in reducing the likelihood of customer leaving for competitors (customer feel heard and will more likely to remain loyal).
+
+For the positive reviews, it can be used for marketing/brand building and strengthen customer relationships.
+
+Marketing/brand building: IJJ can consider featuring customer testimonials and feedback on bank's website/social media to boost branding and reputation. Identify what customer love in general use these insights to craft marketing messages for marketing campaigns, promote the service/products that frequently mentioned in the positive reviews.
+
+Strengthen customer relationship: Sentiment anallysis can also be used to pinpoint services, staffor features that customer appreciate the most. IJJ can replicate them as best practices by training employess based on highly rated customer interactions and consider inviting happy/satisfied customers to exclusive events to build long-term relationships thus encouraging repeated business. From the positive feedback, IJJ can also identify features that customer love and expand them/innovate new products.
+
+By leveraging insights on customer sentiments, IJJ bank can enhance their marketing strategies, increase customer retention and stengthen customer relationship, ultimately driving business growth.
+
+This is not a one-time exercise, the commitment to improvement is crucial for IJJ in fostering better customer satisfaction, which is essential for customer retention. IJJ also needs to continuously collect customer feedback for more insights and better train the models (and have more balanced dataset) for prediction. Simple cycle-loop that IJJ needs to adopt:
+
+Customers provide feedback
+IJJ analyzes the feedback
+IJJ takes action to improve
+IJJ measures the impact of those actions
+The cycle repeats
+
+## AI Ethics 🤖
 Discuss the potential data science ethics issues (privacy, fairness, accuracy, accountability, transparency) in your project. 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
 
-## Source Codes and Datasets
+## Source Codes and Datasets ℹ️
 Upload your model files and dataset into a GitHub repo and add the link here. 
