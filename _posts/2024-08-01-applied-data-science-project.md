@@ -92,6 +92,9 @@ Data Types: ‘author’ (string), ‘date’ (string), ‘address’(string), �
 
 ![image](https://github.com/user-attachments/assets/6132c6ca-2cb0-41f1-b9fb-370fb2251b49)
 
+![image](https://github.com/user-attachments/assets/234972b2-fc59-4ca0-bfd4-56f468f040c9)
+
+
 **Create list of bank review document**
 
 -Map the rating titles into sentiments groupings of "positive", "neutral" and "negative" for more simplified analysis. The rationale behind mapping sentiments in the sentiment mapping dictionary is to simplify the process of categorizing and analyzing textual data, specifically reviews, into predefined sentiment categories (e.g., "Positive," "Neutral," "Negative"). 
