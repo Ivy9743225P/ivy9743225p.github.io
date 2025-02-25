@@ -4,7 +4,9 @@ author: Ivy Loi
 title: "Applied Data Science Project"
 categories: ITD214
 ---
-<u>**BUSINESS UNDERSTANDING**</u>
+
+<b><u>BUSINESS UNDERSTANDING</u></b>
+
 
 ### Background:
 IJJ Pte Ltd is a medium-sized bank headquartered in Singapore, serving a diverse clientele ranging from individual customers to small and medium enterprises (SMEs). As a growing financial institution, the bank aims to strengthen its market position by leveraging technology and data-driven strategies/insights. 
