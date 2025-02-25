@@ -38,13 +38,13 @@ Data Collection Sources
 Source link: https://www.kaggle.com/code/tanshihjen/sentimentanalysis-bankreviewsdataset/input [Total # of columns: 10 (after cleaning: 6 columns); Total # of rows: 1000]
 
 
-Acquire/Select Data
+**Acquire/Select Data**
 Topic: bank reviews 
 Selected based on its mixture of positive, neutral and negative reviews
 Includes feedback on ratings, review title, rating title to provide more insights on the feedback from each individual 
 
 
-Data Field Description 
+**Data Field Description** 
 Columns: ‘author’, ‘date’, ‘address’, ‘bank’, ‘rating’, ‘review_title_by_user’, ‘review’, ‘bank_image’,  ‘rating_title_by_user’, ‘useful_count’ 
 
 Data Types: ‘author’ (string), ‘date’ (string), ‘address’(string), ‘bank’ (string), ‘rating’ (number) review_title_by_user’ (string), ‘review’ (string), ‘bank_image’ (string),  ‘rating_title_by_user’ (string), ‘useful_count’ (string)
@@ -52,7 +52,7 @@ Data Types: ‘author’ (string), ‘date’ (string), ‘address’(string), �
 ![image](https://github.com/user-attachments/assets/6c6bcb6a-cad6-4faf-8c4f-57a44c41dec8)
 
 
-Column Description
+**Column Description**
 
 -author: The user who authored the review, providing valuable insights into the reviewer's identity and perspective.
 
@@ -209,7 +209,22 @@ Column Description
 
 #### Feature Extraction ⛲
 
+**Tokenization & Word Frequency/Occurences**
+-Perform text vectorization using Word Frequency/Occurences method by taking the review_modified and calculates the frequency of each word. 
+-There are 1,284 different words (vocabulary size) in the entire collection of review_modified. In terms of outcomes, there are total of 26,743 occurrences which is the total number of words across the reviews_modified column, counting repetitions.
 
+![image](https://github.com/user-attachments/assets/bc083744-a4bb-41d5-bef4-d99c763bfec9)
+
+![image](https://github.com/user-attachments/assets/8314d329-d1bc-4933-b810-8ef7852d5a9f)
+
+**Top 10 words by frequency**
+
+![image](https://github.com/user-attachments/assets/ad4e293a-7ac0-45bd-8fe2-f112e91d8d0b)
+
+**Using N-grams as features for sentiment analysis**
+-The model not only learns from individual words but also captures relationships between consecutive words, which improves sentiment classification.
+
+![image](https://github.com/user-attachments/assets/833dc2fe-1453-4cd6-8344-3ae90213cffe)
 
 
 ### Modelling
