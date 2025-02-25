@@ -131,7 +131,8 @@ Data Types: ‘author’ (string), ‘date’ (string), ‘address’(string), �
 
 **Identify duplicates under review column - no duplicates found**
 
-**TBC**
+![image](https://github.com/user-attachments/assets/01702352-91fb-49c7-902a-e75f8a898d80)
+
 
 **Mapping for bank names - generalise to one bank**
 -Defining a mapping for various variations of bank names (in different cases) to the word/string "Bank". This is done to standardise the data for only one bank (IJJ bank) which helps eliminate potential noise, make the reviews less specific (the datapoint is not meaningful for sentiment analyis) to allow more focus on the underlying sentiment/feedback.
