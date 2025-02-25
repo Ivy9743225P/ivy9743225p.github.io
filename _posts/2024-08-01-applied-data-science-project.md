@@ -248,7 +248,7 @@ Data Types: ‘author’ (string), ‘date’ (string), ‘address’(string), �
 ![image](https://github.com/user-attachments/assets/833dc2fe-1453-4cd6-8344-3ae90213cffe)
 
 
-### Modelling 🗜️
+#### Modelling 🗜️
 
 <u>Model 1.1</u>
 → Model training for predicting sentiment using multinomial logistic regression based on current dataset (skewed data)
@@ -304,7 +304,7 @@ Undersampling (RandomUnderSampler) & Oversampling (SMOTE) to handle imbalance da
 ![image](https://github.com/user-attachments/assets/f54eac15-ee2e-484b-87af-29b2a428d9e0)
 
 
-### Hyperparameter Tuning & Model Evaluation 🧪
+#### Hyperparameter Tuning & Model Evaluation 🧪
 
 Key Takeaways:
 
@@ -349,7 +349,7 @@ We also looked at how these "resampled data" models are predicting on positive b
 ![image](https://github.com/user-attachments/assets/e74f28a3-119c-4730-aad4-0dc211e6ceeb)
 
 
-## Final Conclusion & Recommendation 🕵️
+#### Final Conclusion & Recommendation 🕵️
 
 While it is important to predict positive reviews, the identification of neutral and negative reviews are equally or more crucial. In banking, overlooking negative or neutral feedback can have serious consequences (reputational damage, regulatory issues, customer churn). We need to understand customer real feedback and thoughts, to have better overall view of customer sentiment which in the long run build more trust. Identifying negative and neutral feedback is essential for improving customer satisfaction and addressing underlying issues.
 
@@ -392,10 +392,10 @@ This is not a one-time exercise, the commitment to improvement is crucial for IJ
 ![image](https://github.com/user-attachments/assets/e026616e-3f6a-476d-a10e-9ccfac9d33e0)
 
 
-## AI Ethics 🤖
+#### AI Ethics 🤖
 Discuss the potential data science ethics issues (privacy, fairness, accuracy, accountability, transparency) in your project. 
 
 
 
-## Source Codes and Datasets ℹ️
+#### Source Codes and Datasets ℹ️
 Upload your model files and dataset into a GitHub repo and add the link here. 
