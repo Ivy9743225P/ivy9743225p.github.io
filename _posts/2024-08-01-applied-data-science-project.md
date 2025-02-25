@@ -1,4 +1,4 @@
----
+![image](https://github.com/user-attachments/assets/26b64584-d8dd-416c-bcf4-5f215f251c16)---
 layout: post
 author: Ivy Loi
 title: "Applied Data Science Project"
@@ -239,8 +239,61 @@ Data Types: ‘author’ (string), ‘date’ (string), ‘address’(string), �
 ![image](https://github.com/user-attachments/assets/833dc2fe-1453-4cd6-8344-3ae90213cffe)
 
 
-### Modelling
-XXX Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
+### Modelling 🗜️
+
+<u>Model 1.1</u>
+→ Model training for predicting sentiment using multinomial logistic regression based on current dataset (skewed data)
+
+→ Metrics:
+
+  -Showing high accuracy of 0.873
+  -Class 2 - positive takes up majority of the class, dominating predictions (precision & recall close to 1.00).
+  -Classes 0 and 1 are ignored, as can be observed in 0% recall for Class 0 and only 3% recall for Class 1.
+  -Macro Avg F1-score (unweighted mean) is low at 0.33, indicating poor performance on minority classes(0 and 1).
+
+![image](https://github.com/user-attachments/assets/886422de-83bf-439f-93ab-279bc27e9e6b)
+
+
+<u>Model 1.2</u>
+Undersampling (RandomUnderSampler) & Oversampling (SMOTE) to handle imbalance dataset
+→ Training and evaluation of logistic regression model on resampled data using undersampling and SMOTE to handle class imbalance. The undersampled data (X_resampled, y_resampled) can then be used to train the machine learning model for sentiment analysis. The key improvement is addressing the class imbalance, which can significantly improve the performance of the model, where positive reviews constitues majority of the class
+
+→ Metrics:
+
+  -Accuracy is at 57% (dropped by 30.3% from 87.3% in the previous imbalanced model)
+  -Macro Avg F1-score at 0.40 (improved from 0.31)
+  -Better recall for minority classes (0 & 1) but at the cost of accuracy.
+
+![image](https://github.com/user-attachments/assets/2c5a4389-b0d4-4351-8dae-01f1887d4cda)
+
+<u>Model 2.1</u>
+→ Model training for predicting sentiment using Naive Bayes based on current dataset (skewed data)
+
+→ Metrics:
+
+-Overall Accuracy of 87.3%, quite close to the accuracy for multinomial regression model.
+-Class 0: precision, recall and F1 score is low at 0, this is the same for Class 1.
+-Model performs well on Class 2 with F1 score of 0.93.
+-Model is highly biased towards Class 2 as can be observed from the metrics due to imbalanced data
+
+![image](https://github.com/user-attachments/assets/c61e7609-797d-4b3f-9876-f38e54417244)
+
+<u>Model 2.2</u>
+Undersampling (RandomUnderSampler) & Oversampling (SMOTE) to handle imbalance dataset
+→ Training and evaluation of Naive Bayes model on resampled data using undersampling and SMOTE to handle class imbalance. The undersampled data (X_resampled, y_resampled) can then be used to train the machine learning model for sentiment analysis. The key improvement is addressing the class imbalance, which can significantly improve the performance of the model, where positive reviews constitues majority of the class
+
+→ Now we have 17 reviews for each sentiment (Negative, Neutral, Positive).
+
+→ Metrics:
+
+-Accuracy is at 55% (dropped by 32.3% from 87.3 in the previous imbalanced model, and increased slightly by 0.7% as compared to multimonial logistics regression model (resampled version).
+-For Class 0, precision is relatively low at 0.33, indicating the model may incorrectly classifies some Class 0 samples as other classes. The recall is very low (0.14) which indicate g the model imay be missing most of the Class 0 instances.
+-Macro Avg F1-score at 0.36 (improved from 0.31) reflecting a poor balance among the three classes.
+
+### Hyperparameter tuning need to be applied to help improve the performnce of the imbalanced and resampled data.
+
+
+
 
 ### Evaluation
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
