@@ -8,25 +8,25 @@ categories: ITD214
 <b><u>BUSINESS UNDERSTANDING</u></b>
 
 
-### Background:
+#### Background:
 IJJ Pte Ltd is a medium-sized bank headquartered in Singapore, serving a diverse clientele ranging from individual customers to small and medium enterprises (SMEs). As a growing financial institution, the bank aims to strengthen its market position by leveraging technology and data-driven strategies/insights. 
 
-### Problem Statement
+#### Problem Statement
 IJJ Pte Ltd struggles to attract high-value customers, optimize marketing efforts, and address customer complaints, impacting customer loyalty and business growth.
 
-### Business Goal
+#### Business Goal
 To enhance customer retention, improve marketing strategies, and effectively resolve customer complaints for better satisfaction and brand loyalty.
 
-### Objective 1 : Attract and Retain High-Value Customers (Jimmy)
+##### Objective 1 : Attract and Retain High-Value Customers (Jimmy)
 Utilize customer data analytics to identify and target high-value clients.
-### Objective 2 : Enhance Marketing Performance (Joycelyn)
+##### Objective 2 : Enhance Marketing Performance (Joycelyn)
 Implement proven marketing strategies to improve customer engagement (measured by whether a customer has signed up for term deposit in this case).
-### Objective 3 : Analyze customer feedback related to product and services. (Ivy)
+##### Objective 3 : Analyze customer feedback related to product and services. (Ivy)
 Leverage bank review analysis to identify opportunities for enhancing IJJ's product and service offerings, ultimately improving customer experience and driving business growth.
 
 
 
-## Work Accomplished
+### Work Accomplished
 <Objective 3>
 Analyze customer feedback related to product and services: Leverage bank review analysis to identify opportunities for enhancing IJJ's product and service offerings, ultimately improving customer experience and driving business growth.
 
