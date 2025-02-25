@@ -7,9 +7,9 @@ author:
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
   This notebook performs an analysis of the bank reviews from 2019 to 2020
-and aim to analyze customer's feedback by understanding their opinions, 
-emotions, and satisfaction levels regarding the bank's products, services, 
-and improve overall customer experience.
+  and aim to analyze customer's feedback by understanding their opinions, 
+  emotions, and satisfaction levels regarding the bank's products, services, 
+  and improve overall customer experience.
 
 # Build settings
 
