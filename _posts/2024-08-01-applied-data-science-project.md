@@ -48,6 +48,7 @@ Data Field Description
 Columns: ‘author’, ‘date’, ‘address’, ‘bank’, ‘rating’, ‘review_title_by_user’, ‘review’, ‘bank_image’,  ‘rating_title_by_user’, ‘useful_count’ 
 
 Data Types: ‘author’ (string), ‘date’ (string), ‘address’(string), ‘bank’ (string), ‘rating’ (number) review_title_by_user’ (string), ‘review’ (string), ‘bank_image’ (string),  ‘rating_title_by_user’ (string), ‘useful_count’ (string)
+
 ![image](https://github.com/user-attachments/assets/6c6bcb6a-cad6-4faf-8c4f-57a44c41dec8)
 
 
