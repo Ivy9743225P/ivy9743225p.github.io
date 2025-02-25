@@ -5,7 +5,7 @@ title: "Applied Data Science Project"
 categories: ITD214
 ---
 
-<b><u>BUSINESS UNDERSTANDING</u></b>
+<b><u>BUSINESS UNDERSTANDING</u></b> 💬
 
 
 #### Background:
@@ -24,14 +24,16 @@ Implement proven marketing strategies to improve customer engagement (measured b
 ##### Objective 3 : Analyze customer feedback related to product and services. (Ivy)
 Leverage bank review analysis to identify opportunities for enhancing IJJ's product and service offerings, ultimately improving customer experience and driving business growth.
 
+#### Tools 🔨
+The tools used to develop the project:
+- Jupyter Notebook - Python
 
-
-### Work Accomplished
+#### Work Accomplished 📔
 <Objective 3>
 Analyze customer feedback related to product and services: Leverage bank review analysis to identify opportunities for enhancing IJJ's product and service offerings, ultimately improving customer experience and driving business growth.
 
 
-### Data Preparation
+#### Data Preparation
 Data Collection Sources
 Source link: https://www.kaggle.com/code/tanshihjen/sentimentanalysis-bankreviewsdataset/input [Total # of columns: 10 (after cleaning: 6 columns); Total # of rows: 1000]
 
