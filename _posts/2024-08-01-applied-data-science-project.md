@@ -364,6 +364,10 @@ Strengthen customer relationship: Sentiment anallysis can also be used to pinpoi
 
 By leveraging insights on customer sentiments, IJJ bank can enhance their marketing strategies, increase customer retention and stengthen customer relationship, ultimately driving business growth.
 
+Rationale behind option of models: Logistics Regression and Naive Bayes models: Both are relatively computationally efficient and simple models, suitable for smaller datasets.
+
+IJJ can consider training other models (such as Random Forest, SVM or deep learning models) when the bank reviews dataset becomes larger in future.
+
 This is not a one-time exercise, the commitment to improvement is crucial for IJJ in fostering better customer satisfaction, which is essential for customer retention. IJJ also needs to continuously collect customer feedback for more insights and better train the models (and have more balanced dataset) for prediction. Simple cycle-loop that IJJ needs to adopt:
 
 -> Customers provide feedback
