@@ -55,14 +55,23 @@ Data Types: ‘author’ (string), ‘date’ (string), ‘address’(string), �
 Column Description
 
 -author: The user who authored the review, providing valuable insights into the reviewer's identity and perspective.
+
 -date: The date when the review was submitted, offering a temporal dimension to the dataset and enabling time-based analysis.
+
 -address: The geographical location from which the review was written, contributing to understanding regional trends and variations in banking experiences.
+
 -bank: The user's numerical assessment of the bank's service, indicating user satisfaction on a numerical scale.
+
 -**rating**: The user who authored the review, providing valuable insights into the reviewer's identity and perspective.
+
 -**review_title_by_user**: The user-assigned title to their review, summarizing the essence of their feedback in a concise manner.
+
 -**review**: The detailed content of the user's review about the bank, providing the primary textual data for analysis and insights.
+
 -bank_image: The URL pointing to the bank's logo or image relevant to the review, facilitating visual associations with the bank.
+
 -**rating_title_by_user**: The user-assigned title to their rating, potentially offering additional context to the rating value.
+
 -useful_count: The count of users who found the review helpful, reflecting the impact and usefulness of the review among other users.
 
 
@@ -159,6 +168,46 @@ Defining a mapping for various variations of bank names (in different cases) to 
 
 
 #### Data Exploration 👣
+
+**Words existing in "Review_modified" column**
+Several prominent words that stand out: "account", "bank", "banking", "service", "HDFC", "good", "mobile", "net", "minimum", "balance", and "charge". Some of these words can be excluded as those words are not very meaningful for sentiment analysis -> bank, banking,
+
+Based on this word cloud, it can be inferred that the reviews are predominantly positive and focus on core banking services like accounts, general service quality, and specific features like mobile apps.
+
+![image](https://github.com/user-attachments/assets/deb7e31d-2409-4409-89c1-ff417cdcbefd)
+![image](https://github.com/user-attachments/assets/8250b30f-ddae-4551-8094-3a089de75ec2)
+
+
+**Overall distribution of rating (by rating score) in 1000 reviews**
+Based on the below chartsm it is observed that the most common rating is 5.0, representing 55% of all reviews. The next most frequent is 4.0, at 25.7%. The distribution is heavily skewed towards positive reviews, with relatively few reviews below 3.0.
+
+![image](https://github.com/user-attachments/assets/e819f898-dbf7-4ab0-a478-ceab47835de2)
+
+**User Review Title**
+Below is a word cloud displaying the common vocabulary used by the user in their review title. The more prominent words are "Good", Service, "Best", etc.
+Apart from "Good" and "Best", other words like "Excellent", "improve", "friendly", "reliable", "safe", and "happy" suggest a positive overall experience or desired aspects of the bank's services.
+While the overall sentiment seems positive, words like "decrease", "worst", and "unhappy" suggest that there might be areas where the bank could improve.**
+
+![image](https://github.com/user-attachments/assets/341f0ffa-ce27-4030-8bc1-3345ced95937)
+
+**User Review Title (with rating < 2.5)**
+Below is a word cloud displaying the common vocabulary used by the user in their review title with rating lower than 2.5. The more prominent negative terms are "improve", "service", "account" with words such as "pathetic", "average", "worst", "headache" which express strong negative emotions and experiences.
+"Customer" is quite prominent, and associated words like "respect", "support", "communication", and "respond" may suggest customer experience problems related to shortcomings in customer service and interactions. The issues appear to be centered around poor service quality, inadequate customer support, and potential problems with account management or specific banking practices.
+The huge size of the word "Need" could suggest a fundamental gap between customer expectations and the bank's current offering hence understanding what specific needs are not being met is crucial for the bank.
+Some actionable insights for IJJ: relook and prioritise on their service improvement and invest in customer service training to improve overall customer experience and satisfaction.
+
+![image](https://github.com/user-attachments/assets/110c3e92-9395-4648-b2c6-34d23c0c6778)
+
+**User Review Title (with rating 4 and 5)**
+For user review title with rating of 4 and 5, below are some of the frequent words observed:
+
+Positive Sentiment: "Good," "Excellent," "Best," "Nice," "Satisfactory"
+Banking Services: "Account," "Savings Account," "Service," "Bank," "Charge," "App"
+Customer Experience: "Friendly," "Easy Use," "Improve," "Trusted"
+
+![image](https://github.com/user-attachments/assets/0e499c1b-9d08-4673-b2b1-9f4bf55a51d7)
+
+#### Feature Extraction 👣
 
 
 
