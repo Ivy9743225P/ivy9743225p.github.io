@@ -210,6 +210,7 @@ Data Types: ‘author’ (string), ‘date’ (string), ‘address’(string), �
 #### Feature Extraction ⛲
 
 **Tokenization & Word Frequency/Occurences**
+
 -Perform text vectorization using Word Frequency/Occurences method by taking the review_modified and calculates the frequency of each word. 
 -There are 1,284 different words (vocabulary size) in the entire collection of review_modified. In terms of outcomes, there are total of 26,743 occurrences which is the total number of words across the reviews_modified column, counting repetitions.
 
@@ -222,6 +223,7 @@ Data Types: ‘author’ (string), ‘date’ (string), ‘address’(string), �
 ![image](https://github.com/user-attachments/assets/ad4e293a-7ac0-45bd-8fe2-f112e91d8d0b)
 
 **Using N-grams as features for sentiment analysis**
+
 -The model not only learns from individual words but also captures relationships between consecutive words, which improves sentiment classification.
 
 ![image](https://github.com/user-attachments/assets/833dc2fe-1453-4cd6-8344-3ae90213cffe)
