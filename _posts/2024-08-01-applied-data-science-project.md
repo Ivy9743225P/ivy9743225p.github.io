@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/26b64584-d8dd-416c-bcf4-5f215f251c16)---
+---
 layout: post
 author: Ivy Loi
 title: "Applied Data Science Project"
@@ -290,15 +290,59 @@ Undersampling (RandomUnderSampler) & Oversampling (SMOTE) to handle imbalance da
 -For Class 0, precision is relatively low at 0.33, indicating the model may incorrectly classifies some Class 0 samples as other classes. The recall is very low (0.14) which indicate g the model imay be missing most of the Class 0 instances.
 -Macro Avg F1-score at 0.36 (improved from 0.31) reflecting a poor balance among the three classes.
 
-### Hyperparameter tuning need to be applied to help improve the performnce of the imbalanced and resampled data.
+##### Hyperparameter tuning need to be applied to help improve the performnce of the imbalanced and resampled data.
+
+![image](https://github.com/user-attachments/assets/f54eac15-ee2e-484b-87af-29b2a428d9e0)
+
+
+### Hyperparameter Tuning & Model Evaluation
+
+Key Takeaways:
+
+✔ Naive Bayes model (imbalance data - tuned) has the highest accuracy (0.87) after hyperparameter tuning of the 4 models above, however, its macro avg F1 score (0.31) shows poor performance in class balance.
+✔ Hyperparameter tuning helped Logistic Regression slightly with class balancing but did not significantly improve overall accuracy. No much change for Naive Bayes performance. Class imbalance is still an issue, especially for minority classes (0 and 1). Resampling helps with class balance but lowers overall accuracy.
+✔ Best Model for Accuracy would be Naive Bayes (imbalance data -tuned) while best model for detecting minority class would be Logistics Regression Model (resampled data -tuned) with accuracy of 53% and better recall for minority class.
+
+
+![image](https://github.com/user-attachments/assets/5533db27-2661-4c1a-ab33-83b7f9985668)
+![image](https://github.com/user-attachments/assets/65853d00-226f-4f6a-95aa-bd26fc2d7593)
+
+
+**New Prediction**
+
+→ Predicting new reviews (based on positive, neutral and negative sentiment) to test the 4 models. Applied the same preprocessing steps per training model.
+
+→ Apart from relooking and prioritising on their service improvement and invest in customer service training based on above analysis, IJJ bank can also leverage on the model to predict sentiments and track customer satisfaction over time. It also helps identify pain points where the bank can relate and enable a more proactive outreach to address the issue. The bank reviews can also be used to discover trends and emerging customer needs that can help to guide the development of new products/features that align with customer preferences and pain points.
+
+→ Based on below predictions across all 4 models, Naive Bayes (Resampled data)-Tuned model has the highest number of correct predictions among the 4 models.
+
+  -Logistics Regression (Imbalance data)-Tuned: 33.3% (3 correct out of 9 predictions)
+  -Logistics Regression (Resampled data) -Tuned 55.5% (5 correct out of 9 predictions)
+  -Naive Bayes (Imbalanced data)-Tune: 33.3% (3 correct out of 9 predictions)
+  -Naive Bayes (Resampled data)-Tuned: 67% (6 correct out of 9 predictions) -> Best model among all, slightly better vs LR resampled model
+
+![image](https://github.com/user-attachments/assets/cfc74603-5cd0-4d34-aa5a-f3804dc8d385)
+
+
+**Models with Resampled data (Logistics Regression and Naive Bayes)**
+
+Generally, the models with resampled data are better at capturing neutral/negative reviews (miniority class) as compared to the models trained with imbalanced data.
+
+Let's compare both resampled models (no major difference in their performance metrics) on more neutral and negative reviews. (10 neutral and 10 negative reviews).
+
+Logistics Regression (Resampled data) -Tuned: 50% (10 correct out of 20 predictions) -> Performed slightly better as compared with NB resampled model
+Naive Bayes (Resampled data)-Tuned: 35% (7 correct out of 20 predictions)
+We also looked at how these "resampled data" models are predicting on positive bank reviews. as their accuracy on positive reviews could be compromised during the resampling phase. Based on 8 positive reviews:
+
+  -Logistics Regression (Resampled data) -Tuned: 50% (4 correct out of 8 predictions) -> Performed slightly better as compared with NB resampled model
+  -Naive Bayes (Resampled data)-Tuned: 37.5% (3 correct out of 8 predictions)
+
+![image](https://github.com/user-attachments/assets/e74f28a3-119c-4730-aad4-0dc211e6ceeb)
 
 
 
 
-### Evaluation
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
-
-## Recommendation and Analysis
+## Final Conclusion & Recommendation
 Explain the analysis and recommendations
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
