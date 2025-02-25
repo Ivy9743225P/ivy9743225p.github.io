@@ -348,7 +348,7 @@ In conclusion, "Logistics Regression (Resampled data) -Tuned" model is generally
 
 Another alternative would be to use both models - model with resample data can be used for internal purpose, risk management and customer/service recovery and model with imbalance data that are good at predicting positive reviews, for marketing purpose.
 
-![image.png](attachment:24a1fef0-9a9b-4d68-b2b1-7f8e1d89b457.png)
+![image](https://github.com/user-attachments/assets/a523c973-ca71-47da-b701-b88b98724010)
 
 The next step for IJJ would be to deploy the model for business use.
 
@@ -371,6 +371,9 @@ IJJ analyzes the feedback
 IJJ takes action to improve
 IJJ measures the impact of those actions
 The cycle repeats
+
+![image](https://github.com/user-attachments/assets/ab9d7eb6-c536-4816-9562-8413afc6ab27)
+
 
 ## AI Ethics 🤖
 Discuss the potential data science ethics issues (privacy, fairness, accuracy, accountability, transparency) in your project. 
