@@ -107,7 +107,8 @@ For Machine Learning model, to avoid biasness from the imbalanced data, some tec
 
 #### Data Cleaning/Transformation 🧼
 
-**Kept relevant columns only**
+**Kept relevant columns only** 
+
 ![image](https://github.com/user-attachments/assets/3996a38c-3987-42b6-842e-128f53c4c7a5)
 
 
