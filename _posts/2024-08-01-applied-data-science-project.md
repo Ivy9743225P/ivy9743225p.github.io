@@ -76,9 +76,9 @@ Column Description
 
 
 **Base information on dataset**
-Reviews were gathered from 620 users/individual over a period of 4-5 months.  
-Missing values: 4 
-There are total of 10 columns and 1000 rows with data points from Rating, Review Title, Review, and Rating Title. These are useful information that can be used in the sentiment analysis. There are some data points that can be meaningless and does not provide much insights for the analysis of feedback.
+-Reviews were gathered from 620 users/individual over a period of 4-5 months.  
+-Missing values: 4 
+-There are total of 10 columns and 1000 rows with data points from Rating, Review Title, Review, and Rating Title. These are useful information that can be used in the sentiment analysis. There are some data points that can be meaningless and does not provide much insights for the analysis of feedback.
 
 ![image](https://github.com/user-attachments/assets/1051cc24-1f3b-47a1-a3c7-ae0b4acb6263)
 ![image](https://github.com/user-attachments/assets/db5c3245-0cf6-470d-90f8-a966f52787ab)
@@ -86,23 +86,23 @@ There are total of 10 columns and 1000 rows with data points from Rating, Review
 
 **Words existing in "Review" column (before preprocessing)**
 
-Several prominent words that stand out: "account", "bank", "banking", "service", "good", "mobile", "net", "minimum", "balance", and "charge". Some of these words can be excluded as those words may not be very meaningful for sentiment analysis -> e.g. bank, banking
-Based on this word cloud, it can be inferred that the reviews are predominantly positive and focus on core banking services like accounts, general service quality, and specific features like mobile apps.
+-Several prominent words that stand out: "account", "bank", "banking", "service", "good", "mobile", "net", "minimum", "balance", and "charge". Some of these words can be excluded as those words may not be very meaningful for sentiment analysis -> e.g. bank, banking
+-Based on this word cloud, it can be inferred that the reviews are predominantly positive and focus on core banking services like accounts, general service quality, and specific features like mobile apps.
 ![image](https://github.com/user-attachments/assets/6132c6ca-2cb0-41f1-b9fb-370fb2251b49)
 
 **Create list of bank review document**
-Map the rating titles into sentiments groupings of "positive", "neutral" and "negative" for more simplified analysis. The rationale behind mapping sentiments in the sentiment mapping dictionary is to simplify the process of categorizing and analyzing textual data, specifically reviews, into predefined sentiment categories (e.g., "Positive," "Neutral," "Negative"). 
+-Map the rating titles into sentiments groupings of "positive", "neutral" and "negative" for more simplified analysis. The rationale behind mapping sentiments in the sentiment mapping dictionary is to simplify the process of categorizing and analyzing textual data, specifically reviews, into predefined sentiment categories (e.g., "Positive," "Neutral," "Negative"). 
 
-Below is the sentiment mapping designed to cover clear and well-known expressions of sentiment:
-Positive: "Great!", "Blown Away!", "Excellent!", "Pretty good"
-Neutral: "Satisfactory", "Just OK", "Expected more“
-Negative: "Unacceptable", "Bad", "Really Bad"
+-Below is the sentiment mapping designed to cover clear and well-known expressions of sentiment:
+  -Positive: "Great!", "Blown Away!", "Excellent!", "Pretty good"
+  -Neutral: "Satisfactory", "Just OK", "Expected more“
+  -Negative: "Unacceptable", "Bad", "Really Bad"
 ![image](https://github.com/user-attachments/assets/d9c402a3-0d14-4eb5-b533-182c4eb121b9)
 
 
 **Sentiment Distribution**
-The dataset is imbalanced, with majority of rows labeled as Positive, followed by Neutral and Negative sentiment which shows most of the customers have positive experiences. 
-For Machine Learning model, to avoid biasness from the imbalanced data, some techniques can be used to overcome imbalance dataset. One of them would be Resampling techniques - Oversampling (increase Negative / Neutral samples) or  Undersampling  (reduce Positive samples).
+-The dataset is imbalanced, with majority of rows labeled as Positive, followed by Neutral and Negative sentiment which shows most of the customers have positive experiences. 
+-For Machine Learning model, to avoid biasness from the imbalanced data, some techniques can be used to overcome imbalance dataset. One of them would be Resampling techniques - Oversampling (increase Negative / Neutral samples) or  Undersampling  (reduce Positive samples).
 ![image](https://github.com/user-attachments/assets/e28975da-5586-43f2-bbd0-434bf263fc2b)
 
 
@@ -124,7 +124,7 @@ For Machine Learning model, to avoid biasness from the imbalanced data, some tec
 **TBC**
 
 **Mapping for bank names - generalise to one bank**
-Defining a mapping for various variations of bank names (in different cases) to the word/string "Bank". This is done to standardise the data for only one bank (IJJ bank) which helps eliminate potential noise, make the reviews less specific (the datapoint is not meaningful for sentiment analyis) to allow more focus on the underlying sentiment/feedback.
+-Defining a mapping for various variations of bank names (in different cases) to the word/string "Bank". This is done to standardise the data for only one bank (IJJ bank) which helps eliminate potential noise, make the reviews less specific (the datapoint is not meaningful for sentiment analyis) to allow more focus on the underlying sentiment/feedback.
 
 ![image](https://github.com/user-attachments/assets/e272b318-f5c5-478c-90f8-eb33044714ef)
 
@@ -170,40 +170,40 @@ Defining a mapping for various variations of bank names (in different cases) to 
 #### Data Exploration 👣
 
 **Words existing in "Review_modified" column**
-Several prominent words that stand out: "account", "bank", "banking", "service", "HDFC", "good", "mobile", "net", "minimum", "balance", and "charge". Some of these words can be excluded as those words are not very meaningful for sentiment analysis -> bank, banking,
+-Several prominent words that stand out: "account", "bank", "banking", "service", "HDFC", "good", "mobile", "net", "minimum", "balance", and "charge". Some of these words can be excluded as those words are not very meaningful for sentiment analysis -> bank, banking,
 
-Based on this word cloud, it can be inferred that the reviews are predominantly positive and focus on core banking services like accounts, general service quality, and specific features like mobile apps.
+-Based on this word cloud, it can be inferred that the reviews are predominantly positive and focus on core banking services like accounts, general service quality, and specific features like mobile apps.
 
 ![image](https://github.com/user-attachments/assets/deb7e31d-2409-4409-89c1-ff417cdcbefd)
 ![image](https://github.com/user-attachments/assets/8250b30f-ddae-4551-8094-3a089de75ec2)
 
 
 **Overall distribution of rating (by rating score) in 1000 reviews**
-Based on the below chartsm it is observed that the most common rating is 5.0, representing 55% of all reviews. The next most frequent is 4.0, at 25.7%. The distribution is heavily skewed towards positive reviews, with relatively few reviews below 3.0.
+-Based on the below chartsm it is observed that the most common rating is 5.0, representing 55% of all reviews. The next most frequent is 4.0, at 25.7%. The distribution is heavily skewed towards positive reviews, with relatively few reviews below 3.0.
 
 ![image](https://github.com/user-attachments/assets/e819f898-dbf7-4ab0-a478-ceab47835de2)
 
 **User Review Title**
-Below is a word cloud displaying the common vocabulary used by the user in their review title. The more prominent words are "Good", Service, "Best", etc.
-Apart from "Good" and "Best", other words like "Excellent", "improve", "friendly", "reliable", "safe", and "happy" suggest a positive overall experience or desired aspects of the bank's services.
-While the overall sentiment seems positive, words like "decrease", "worst", and "unhappy" suggest that there might be areas where the bank could improve.**
+-Below is a word cloud displaying the common vocabulary used by the user in their review title. The more prominent words are "Good", Service, "Best", etc.
+-Apart from "Good" and "Best", other words like "Excellent", "improve", "friendly", "reliable", "safe", and "happy" suggest a positive overall experience or desired aspects of the bank's services.
+-While the overall sentiment seems positive, words like "decrease", "worst", and "unhappy" suggest that there might be areas where the bank could improve.**
 
 ![image](https://github.com/user-attachments/assets/341f0ffa-ce27-4030-8bc1-3345ced95937)
 
 **User Review Title (with rating < 2.5)**
-Below is a word cloud displaying the common vocabulary used by the user in their review title with rating lower than 2.5. The more prominent negative terms are "improve", "service", "account" with words such as "pathetic", "average", "worst", "headache" which express strong negative emotions and experiences.
-"Customer" is quite prominent, and associated words like "respect", "support", "communication", and "respond" may suggest customer experience problems related to shortcomings in customer service and interactions. The issues appear to be centered around poor service quality, inadequate customer support, and potential problems with account management or specific banking practices.
-The huge size of the word "Need" could suggest a fundamental gap between customer expectations and the bank's current offering hence understanding what specific needs are not being met is crucial for the bank.
-Some actionable insights for IJJ: relook and prioritise on their service improvement and invest in customer service training to improve overall customer experience and satisfaction.
+-Below is a word cloud displaying the common vocabulary used by the user in their review title with rating lower than 2.5. The more prominent negative terms are "improve", "service", "account" with words such as "pathetic", "average", "worst", "headache" which express strong negative emotions and experiences.
+-"Customer" is quite prominent, and associated words like "respect", "support", "communication", and "respond" may suggest customer experience problems related to shortcomings in customer service and interactions. The issues appear to be centered around poor service quality, inadequate customer support, and potential problems with account management or specific banking practices.
+-The huge size of the word "Need" could suggest a fundamental gap between customer expectations and the bank's current offering hence understanding what specific needs are not being met is crucial for the bank.
+-Some actionable insights for IJJ: relook and prioritise on their service improvement and invest in customer service training to improve overall customer experience and satisfaction.
 
 ![image](https://github.com/user-attachments/assets/110c3e92-9395-4648-b2c6-34d23c0c6778)
 
 **User Review Title (with rating 4 and 5)**
-For user review title with rating of 4 and 5, below are some of the frequent words observed:
+-For user review title with rating of 4 and 5, below are some of the frequent words observed:
 
-Positive Sentiment: "Good," "Excellent," "Best," "Nice," "Satisfactory"
-Banking Services: "Account," "Savings Account," "Service," "Bank," "Charge," "App"
-Customer Experience: "Friendly," "Easy Use," "Improve," "Trusted"
+  -Positive Sentiment: "Good," "Excellent," "Best," "Nice," "Satisfactory"
+  -Banking Services: "Account," "Savings Account," "Service," "Bank," "Charge," "App"
+  -Customer Experience: "Friendly," "Easy Use," "Improve," "Trusted"
 
 ![image](https://github.com/user-attachments/assets/0e499c1b-9d08-4673-b2b1-9f4bf55a51d7)
 
