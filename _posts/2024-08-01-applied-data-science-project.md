@@ -33,7 +33,7 @@ The tools used to develop the project:
 Analyze customer feedback related to product and services: Leverage bank review analysis to identify opportunities for enhancing IJJ's product and service offerings, ultimately improving customer experience and driving business growth.
 
 
-#### Data Preparation
+#### Data Review 
 Data Collection Sources
 Source link: https://www.kaggle.com/code/tanshihjen/sentimentanalysis-bankreviewsdataset/input [Total # of columns: 10 (after cleaning: 6 columns); Total # of rows: 1000]
 
@@ -44,7 +44,7 @@ Selected based on its mixture of positive, neutral and negative reviews
 Includes feedback on ratings, review title, rating title to provide more insights on the feedback from each individual 
 
 
-Data Field Description
+Data Field Description 
 Columns: ‘author’, ‘date’, ‘address’, ‘bank’, ‘rating’, ‘review_title_by_user’, ‘review’, ‘bank_image’,  ‘rating_title_by_user’, ‘useful_count’ 
 
 Data Types: ‘author’ (string), ‘date’ (string), ‘address’(string), ‘bank’ (string), ‘rating’ (number) review_title_by_user’ (string), ‘review’ (string), ‘bank_image’ (string),  ‘rating_title_by_user’ (string), ‘useful_count’ (string)
@@ -105,8 +105,10 @@ For Machine Learning model, to avoid biasness from the imbalanced data, some tec
 ![image](https://github.com/user-attachments/assets/e28975da-5586-43f2-bbd0-434bf263fc2b)
 
 
+#### Data Cleaning/Transformation 🧼
 
-
+**Kept relevant columns only**
+![image](https://github.com/user-attachments/assets/3996a38c-3987-42b6-842e-128f53c4c7a5)
 
 
 ### Modelling
