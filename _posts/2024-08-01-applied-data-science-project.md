@@ -122,21 +122,29 @@ Defining a mapping for various variations of bank names (in different cases) to 
 
 **Converting the review column to lowercase**
 
-![image](https://github.com/user-attachments/assets/bb32acc1-219e-49a7-8337-d8dc315eeb00)
+![image](https://github.com/user-attachments/assets/a3c49664-c013-49f7-96e4-387fe1cb2732)
+![image](https://github.com/user-attachments/assets/ccfba07b-82d4-4f07-8489-edb914e06a2b)
+
 
 **Stop words removal**
 -Removing stopwords (list of English stopwords from NLTK), kept negation words to help assist in identifying/interpreting sentiment
 -Remove irrelevant words (context-specific words likely to appear in both positive & negative reviews) that do not inherently express positive/negative sentiments
 
-![image](https://github.com/user-attachments/assets/138213eb-ab19-4077-adf5-ad819e3e8648)
+![image](https://github.com/user-attachments/assets/f2028869-0426-49a7-a23f-f3597aca9034)
+![image](https://github.com/user-attachments/assets/f8510447-052e-42a2-9c3e-bdb22733c51d)
+
 
 **Remove punctuation marks from review column**
 
-![image](https://github.com/user-attachments/assets/6640fa3a-588b-4ed5-836f-a2a1b5989f5e)
+![image](https://github.com/user-attachments/assets/1784bb60-4eee-4a3d-825e-708b5bd9ebff)
+![image](https://github.com/user-attachments/assets/6a5d39f6-6f23-4b58-9eb7-9368ad4678e1)
+
 
 **Remove numbers from review column**
 
-![image](https://github.com/user-attachments/assets/a9b5893b-664a-4bf9-b189-4af33296be8f)
+![image](https://github.com/user-attachments/assets/80ad4889-3dea-40cc-91ed-3d1fa2a8d51b)
+![image](https://github.com/user-attachments/assets/0b15f33d-616f-43fa-ae90-e985a9cd2e97)
+
 
 **POS Tagger + Lemmatization
 -Applied POS tagger and lemmatization on review column. It helps with word sense disambiguation and better feature represenation. Used POS tag+lemmatization instead of stemming as lemmatization preserves sentiment nuances and considers the context of words
