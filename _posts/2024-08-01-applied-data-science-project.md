@@ -31,11 +31,12 @@ The tools used to develop the project:
 - Jupyter Notebook - Python
 
 #### Work Accomplished 📔
-<Objective 3>
+
+**Objective 3**
 Analyze customer feedback related to product and services: Leverage bank review analysis to identify opportunities for enhancing IJJ's product and service offerings, ultimately improving customer experience and driving business growth.
 
 
-#### Data Review 
+#### Data Review 👓
 Data Collection Sources
 Source link: https://www.kaggle.com/code/tanshihjen/sentimentanalysis-bankreviewsdataset/input [Total # of columns: 10 (after cleaning: 6 columns); Total # of rows: 1000]
 
