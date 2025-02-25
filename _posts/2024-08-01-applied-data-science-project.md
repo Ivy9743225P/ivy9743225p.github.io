@@ -372,7 +372,7 @@ This is not a one-time exercise, the commitment to improvement is crucial for IJ
 
 -> IJJ takes action to improve
 
-- >IJJ measures the impact of those actions
+-> IJJ measures the impact of those actions
 
 -> The cycle repeats
 
