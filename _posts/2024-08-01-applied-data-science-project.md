@@ -366,15 +366,15 @@ By leveraging insights on customer sentiments, IJJ bank can enhance their market
 
 This is not a one-time exercise, the commitment to improvement is crucial for IJJ in fostering better customer satisfaction, which is essential for customer retention. IJJ also needs to continuously collect customer feedback for more insights and better train the models (and have more balanced dataset) for prediction. Simple cycle-loop that IJJ needs to adopt:
 
--Customers provide feedback
+-> Customers provide feedback
 
--IJJ analyzes the feedback
+-> IJJ analyzes the feedback
 
--IJJ takes action to improve
+-> IJJ takes action to improve
 
--IJJ measures the impact of those actions
+- >IJJ measures the impact of those actions
 
--The cycle repeats
+-> The cycle repeats
 
 ![image](https://github.com/user-attachments/assets/e026616e-3f6a-476d-a10e-9ccfac9d33e0)
 
