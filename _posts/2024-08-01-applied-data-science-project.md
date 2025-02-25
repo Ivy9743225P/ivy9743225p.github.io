@@ -1,4 +1,4 @@
----
+![image](https://github.com/user-attachments/assets/33b86980-6f82-47dd-8fca-ea5fb0316881)---
 layout: post
 author: Ivy Loi
 title: "Applied Data Science Project"
@@ -101,7 +101,57 @@ For Machine Learning model, to avoid biasness from the imbalanced data, some tec
 
 **Kept relevant columns only** 
 
+![image](https://github.com/user-attachments/assets/d318f157-0ffa-419f-9a39-77128c05525b)
 ![image](https://github.com/user-attachments/assets/3996a38c-3987-42b6-842e-128f53c4c7a5)
+
+
+**Removed leading and trailing whitespace for more consistent data format**
+
+![image](https://github.com/user-attachments/assets/87a978d2-5055-413b-b49d-e24540e822d5)
+![image](https://github.com/user-attachments/assets/058fea48-ddda-41d1-879a-1d263d5ea2e0)
+
+**Identify duplicates under review column - no duplicates found**
+
+**TBC**
+
+**Mapping for bank names - generalise to one bank**
+Defining a mapping for various variations of bank names (in different cases) to the word/string "Bank". This is done to standardise the data for only one bank (IJJ bank) which helps eliminate potential noise, make the reviews less specific (the datapoint is not meaningful for sentiment analyis) to allow more focus on the underlying sentiment/feedback.
+
+![image](https://github.com/user-attachments/assets/e272b318-f5c5-478c-90f8-eb33044714ef)
+
+
+**Converting the review column to lowercase**
+
+![image](https://github.com/user-attachments/assets/bb32acc1-219e-49a7-8337-d8dc315eeb00)
+
+**Stop words removal**
+-Removing stopwords (list of English stopwords from NLTK), kept negation words to help assist in identifying/interpreting sentiment
+-Remove irrelevant words (context-specific words likely to appear in both positive & negative reviews) that do not inherently express positive/negative sentiments
+
+![image](https://github.com/user-attachments/assets/138213eb-ab19-4077-adf5-ad819e3e8648)
+
+**Remove punctuation marks from review column**
+
+![image](https://github.com/user-attachments/assets/6640fa3a-588b-4ed5-836f-a2a1b5989f5e)
+
+**Remove numbers from review column**
+
+![image](https://github.com/user-attachments/assets/a9b5893b-664a-4bf9-b189-4af33296be8f)
+
+**POS Tagger + Lemmatization
+-Applied POS tagger and lemmatization on review column. It helps with word sense disambiguation and better feature represenation. Used POS tag+lemmatization instead of stemming as lemmatization preserves sentiment nuances and considers the context of words
+
+![image](https://github.com/user-attachments/assets/71e2b7cd-7f40-4520-b751-d8221b900554)
+
+![image](https://github.com/user-attachments/assets/9240875a-3778-4b8b-80cf-ca21c76975a0)
+
+**Displaying the "cleansed" review (review_modified) column
+
+![image](https://github.com/user-attachments/assets/0581d128-d677-4b7c-8379-a049cc0fd127)
+
+
+#### Data Exploration 👣
+
 
 
 ### Modelling
