@@ -76,6 +76,7 @@ Data Types: ‘author’ (string), ‘date’ (string), ‘address’(string), �
 
 
 **Base information on dataset**
+
 -Reviews were gathered from 620 users/individual over a period of 4-5 months.  
 -Missing values: 4 
 -There are total of 10 columns and 1000 rows with data points from Rating, Review Title, Review, and Rating Title. These are useful information that can be used in the sentiment analysis. There are some data points that can be meaningless and does not provide much insights for the analysis of feedback.
@@ -91,6 +92,7 @@ Data Types: ‘author’ (string), ‘date’ (string), ‘address’(string), �
 ![image](https://github.com/user-attachments/assets/6132c6ca-2cb0-41f1-b9fb-370fb2251b49)
 
 **Create list of bank review document**
+
 -Map the rating titles into sentiments groupings of "positive", "neutral" and "negative" for more simplified analysis. The rationale behind mapping sentiments in the sentiment mapping dictionary is to simplify the process of categorizing and analyzing textual data, specifically reviews, into predefined sentiment categories (e.g., "Positive," "Neutral," "Negative"). 
 
 -Below is the sentiment mapping designed to cover clear and well-known expressions of sentiment:
@@ -101,6 +103,7 @@ Data Types: ‘author’ (string), ‘date’ (string), ‘address’(string), �
 
 
 **Sentiment Distribution**
+
 -The dataset is imbalanced, with majority of rows labeled as Positive, followed by Neutral and Negative sentiment which shows most of the customers have positive experiences. 
 -For Machine Learning model, to avoid biasness from the imbalanced data, some techniques can be used to overcome imbalance dataset. One of them would be Resampling techniques - Oversampling (increase Negative / Neutral samples) or  Undersampling  (reduce Positive samples).
 ![image](https://github.com/user-attachments/assets/e28975da-5586-43f2-bbd0-434bf263fc2b)
@@ -136,6 +139,7 @@ Data Types: ‘author’ (string), ‘date’ (string), ‘address’(string), �
 
 
 **Stop words removal**
+
 -Removing stopwords (list of English stopwords from NLTK), kept negation words to help assist in identifying/interpreting sentiment
 -Remove irrelevant words (context-specific words likely to appear in both positive & negative reviews) that do not inherently express positive/negative sentiments
 
@@ -155,7 +159,8 @@ Data Types: ‘author’ (string), ‘date’ (string), ‘address’(string), �
 ![image](https://github.com/user-attachments/assets/0b15f33d-616f-43fa-ae90-e985a9cd2e97)
 
 
-**POS Tagger + Lemmatization
+**POS Tagger + Lemmatization**
+
 -Applied POS tagger and lemmatization on review column. It helps with word sense disambiguation and better feature represenation. Used POS tag+lemmatization instead of stemming as lemmatization preserves sentiment nuances and considers the context of words
 
 ![image](https://github.com/user-attachments/assets/71e2b7cd-7f40-4520-b751-d8221b900554)
@@ -170,6 +175,7 @@ Data Types: ‘author’ (string), ‘date’ (string), ‘address’(string), �
 #### Data Exploration 👣
 
 **Words existing in "Review_modified" column**
+
 -Several prominent words that stand out: "account", "bank", "banking", "service", "HDFC", "good", "mobile", "net", "minimum", "balance", and "charge". Some of these words can be excluded as those words are not very meaningful for sentiment analysis -> bank, banking,
 
 -Based on this word cloud, it can be inferred that the reviews are predominantly positive and focus on core banking services like accounts, general service quality, and specific features like mobile apps.
@@ -179,11 +185,13 @@ Data Types: ‘author’ (string), ‘date’ (string), ‘address’(string), �
 
 
 **Overall distribution of rating (by rating score) in 1000 reviews**
+
 -Based on the below chartsm it is observed that the most common rating is 5.0, representing 55% of all reviews. The next most frequent is 4.0, at 25.7%. The distribution is heavily skewed towards positive reviews, with relatively few reviews below 3.0.
 
 ![image](https://github.com/user-attachments/assets/e819f898-dbf7-4ab0-a478-ceab47835de2)
 
 **User Review Title**
+
 -Below is a word cloud displaying the common vocabulary used by the user in their review title. The more prominent words are "Good", Service, "Best", etc.
 -Apart from "Good" and "Best", other words like "Excellent", "improve", "friendly", "reliable", "safe", and "happy" suggest a positive overall experience or desired aspects of the bank's services.
 -While the overall sentiment seems positive, words like "decrease", "worst", and "unhappy" suggest that there might be areas where the bank could improve.**
@@ -191,6 +199,7 @@ Data Types: ‘author’ (string), ‘date’ (string), ‘address’(string), �
 ![image](https://github.com/user-attachments/assets/341f0ffa-ce27-4030-8bc1-3345ced95937)
 
 **User Review Title (with rating < 2.5)**
+
 -Below is a word cloud displaying the common vocabulary used by the user in their review title with rating lower than 2.5. The more prominent negative terms are "improve", "service", "account" with words such as "pathetic", "average", "worst", "headache" which express strong negative emotions and experiences.
 -"Customer" is quite prominent, and associated words like "respect", "support", "communication", and "respond" may suggest customer experience problems related to shortcomings in customer service and interactions. The issues appear to be centered around poor service quality, inadequate customer support, and potential problems with account management or specific banking practices.
 -The huge size of the word "Need" could suggest a fundamental gap between customer expectations and the bank's current offering hence understanding what specific needs are not being met is crucial for the bank.
@@ -199,6 +208,7 @@ Data Types: ‘author’ (string), ‘date’ (string), ‘address’(string), �
 ![image](https://github.com/user-attachments/assets/110c3e92-9395-4648-b2c6-34d23c0c6778)
 
 **User Review Title (with rating 4 and 5)**
+
 -For user review title with rating of 4 and 5, below are some of the frequent words observed:
 
   -Positive Sentiment: "Good," "Excellent," "Best," "Nice," "Satisfactory"
