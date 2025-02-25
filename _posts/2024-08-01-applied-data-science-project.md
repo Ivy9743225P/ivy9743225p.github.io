@@ -17,7 +17,7 @@ IJJ Pte Ltd struggles to attract high-value customers, optimize marketing effort
 #### Business Goal
 To enhance customer retention, improve marketing strategies, and effectively resolve customer complaints for better satisfaction and brand loyalty.
 
-![image.png](attachment:b4d903fd-596c-453b-9a58-52c597d18605.png)
+![image](https://github.com/user-attachments/assets/ed027e87-12be-4545-baa4-6685cd5660b6)
 
 ##### Objective 1 : Attract and Retain High-Value Customers (Jimmy)
 Utilize customer data analytics to identify and target high-value clients.
