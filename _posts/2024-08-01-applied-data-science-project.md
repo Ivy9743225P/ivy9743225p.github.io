@@ -249,7 +249,7 @@ Data Types: ‘author’ (string), ‘date’ (string), ‘address’(string), �
 
 #### Modelling 🗜️
 
-<u>**Model 1.1**</u>
+**<u>Model 1.1</u>**
 → Model training for predicting sentiment using multinomial logistic regression based on current dataset (skewed data)
 
 → Metrics:
@@ -262,7 +262,7 @@ Data Types: ‘author’ (string), ‘date’ (string), ‘address’(string), �
 ![image](https://github.com/user-attachments/assets/886422de-83bf-439f-93ab-279bc27e9e6b)
 
 
-<u>**Model 1.2**</u>
+**<u>Model 1.2</u>**
 → Undersampling (RandomUnderSampler) & Oversampling (SMOTE) to handle imbalance dataset
 → Training and evaluation of logistic regression model on resampled data using undersampling and SMOTE to handle class imbalance. The undersampled data (X_resampled, y_resampled) can then be used to train the machine learning model for sentiment analysis. The key improvement is addressing the class imbalance, which can significantly improve the performance of the model, where positive reviews constitues majority of the class
 
@@ -274,7 +274,7 @@ Data Types: ‘author’ (string), ‘date’ (string), ‘address’(string), �
 
 ![image](https://github.com/user-attachments/assets/2c5a4389-b0d4-4351-8dae-01f1887d4cda)
 
-<u>**Model 2.1**</u>
+**<u>Model 2.1</u>**
 → Model training for predicting sentiment using Naive Bayes based on current dataset (skewed data)
 
 → Metrics:
@@ -286,7 +286,7 @@ Data Types: ‘author’ (string), ‘date’ (string), ‘address’(string), �
 
 ![image](https://github.com/user-attachments/assets/c61e7609-797d-4b3f-9876-f38e54417244)
 
-<u>**Model 2.2**</u>
+**<u>Model 2.2</u>**
 → Undersampling (RandomUnderSampler) & Oversampling (SMOTE) to handle imbalance dataset
 → Training and evaluation of Naive Bayes model on resampled data using undersampling and SMOTE to handle class imbalance. The undersampled data (X_resampled, y_resampled) can then be used to train the machine learning model for sentiment analysis. The key improvement is addressing the class imbalance, which can significantly improve the performance of the model, where positive reviews constitues majority of the class
 
@@ -355,7 +355,7 @@ We also looked at how these "resampled data" models are predicting on positive b
 
 While it is important to predict positive reviews, the identification of neutral and negative reviews are equally or more crucial. In banking, overlooking negative or neutral feedback can have serious consequences (reputational damage, regulatory issues, customer churn). We need to understand customer real feedback and thoughts, to have better overall view of customer sentiment which in the long run build more trust. Identifying negative and neutral feedback is essential for improving customer satisfaction and addressing underlying issues.
 
-In conclusion, <span style="color: orange;">"Logistics Regression (Resampled data) -Tuned" model </span> is generally the better option for analyzing bank reviews. It provides a <span style="color: orange;">more balanced approach</span> that prioritizes accuracy and risk mitigation as compared with the other models.
+In conclusion, $${\color{orange}"Logistics Regression (Resampled data) -Tuned" model}$$ is generally the better option for analyzing bank reviews. It provides a <span style="color: orange;">more balanced approach</span> that prioritizes accuracy and risk mitigation as compared with the other models.
 
 Another alternative would be to <span style="color: brown;">use both models</span> - model with resample data can be used for <span style="color: brown;">internal purpose, risk management and customer/service recovery</span> and model with imbalance data that are good at predicting positive reviews, for <span style="color: orange;">marketing purpose</span>.
 
