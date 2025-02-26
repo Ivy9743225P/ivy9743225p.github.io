@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/e2c63829-5f4f-4a94-abe1-d26d7225bd31)---
+---
 layout: post
 author: Ivy Loi
 title: "Applied Data Science Project"
