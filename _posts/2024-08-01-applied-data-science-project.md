@@ -32,7 +32,7 @@ The tools used to develop the project:
 
 #### Work Accomplished 📔
 
-**Objective 3**
+**Objective 3**:
 Analyze customer feedback related to product and services: Leverage bank review analysis to identify opportunities for enhancing IJJ's product and service offerings, ultimately improving customer experience and driving business growth.
 
 
@@ -310,9 +310,10 @@ Data Types: ‘author’ (string), ‘date’ (string), ‘address’(string), �
 Key Takeaways:
 
 ✔ Naive Bayes model (imbalance data - tuned) has the highest accuracy (0.87) after hyperparameter tuning of the 4 models above, however, its macro avg F1 score (0.31) shows poor performance in class balance.
-✔ Hyperparameter tuning helped Logistic Regression slightly with class balancing but did not significantly improve overall accuracy. No much change for Naive Bayes performance. Class imbalance is still an issue, especially for minority classes (0 and 1). Resampling helps with class balance but lowers overall accuracy.
-✔ Best Model for Accuracy would be Naive Bayes (imbalance data -tuned) while best model for detecting minority class would be Logistics Regression Model (resampled data -tuned) with accuracy of 53% and better recall for minority class.
 
+✔ Hyperparameter tuning helped Logistic Regression slightly with class balancing but did not significantly improve overall accuracy. No much change for Naive Bayes performance. Class imbalance is still an issue, especially for minority classes (0 and 1). Resampling helps with class balance but lowers overall accuracy.
+
+✔ Best Model for Accuracy would be Naive Bayes (imbalance data -tuned) while best model for detecting minority class would be Logistics Regression Model (resampled data -tuned) with accuracy of 53% and better recall for minority class.
 
 ![image](https://github.com/user-attachments/assets/5533db27-2661-4c1a-ab33-83b7f9985668)
 ![image](https://github.com/user-attachments/assets/65853d00-226f-4f6a-95aa-bd26fc2d7593)
