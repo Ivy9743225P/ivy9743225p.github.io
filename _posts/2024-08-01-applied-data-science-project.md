@@ -263,7 +263,7 @@ Data Types: ‘author’ (string), ‘date’ (string), ‘address’(string), �
 
 
 <u>**Model 1.2**</u>
-Undersampling (RandomUnderSampler) & Oversampling (SMOTE) to handle imbalance dataset
+→ Undersampling (RandomUnderSampler) & Oversampling (SMOTE) to handle imbalance dataset
 → Training and evaluation of logistic regression model on resampled data using undersampling and SMOTE to handle class imbalance. The undersampled data (X_resampled, y_resampled) can then be used to train the machine learning model for sentiment analysis. The key improvement is addressing the class imbalance, which can significantly improve the performance of the model, where positive reviews constitues majority of the class
 
 → Metrics:
@@ -287,7 +287,7 @@ Undersampling (RandomUnderSampler) & Oversampling (SMOTE) to handle imbalance da
 ![image](https://github.com/user-attachments/assets/c61e7609-797d-4b3f-9876-f38e54417244)
 
 <u>**Model 2.2**</u>
-Undersampling (RandomUnderSampler) & Oversampling (SMOTE) to handle imbalance dataset
+→ Undersampling (RandomUnderSampler) & Oversampling (SMOTE) to handle imbalance dataset
 → Training and evaluation of Naive Bayes model on resampled data using undersampling and SMOTE to handle class imbalance. The undersampled data (X_resampled, y_resampled) can then be used to train the machine learning model for sentiment analysis. The key improvement is addressing the class imbalance, which can significantly improve the performance of the model, where positive reviews constitues majority of the class
 
 → Now we have 17 reviews for each sentiment (Negative, Neutral, Positive).
