@@ -183,7 +183,7 @@ Data Types: ‘author’ (string), ‘date’ (string), ‘address’(string), �
 ![image](https://github.com/user-attachments/assets/0581d128-d677-4b7c-8379-a049cc0fd127)
 
 
-### DATA EXPLORATION 👣
+### DATA EXPLORATION 📊
 
 **Words existing in "Review_modified" column**
 
@@ -228,7 +228,7 @@ Data Types: ‘author’ (string), ‘date’ (string), ‘address’(string), �
 
 ![image](https://github.com/user-attachments/assets/0e499c1b-9d08-4673-b2b1-9f4bf55a51d7)
 
-### FEATURE EXTRACTION ⛲
+### FEATURE EXTRACTION 🧬
 
 **Tokenization & Word Frequency/Occurences**
 
@@ -322,7 +322,7 @@ Key Takeaways:
 ![image](https://github.com/user-attachments/assets/65853d00-226f-4f6a-95aa-bd26fc2d7593)
 
 
-### NEW PREDICTION
+### NEW PREDICTION ⏳
 
 **Predicting new reviews (based on positive, neutral and negative sentiment) to test the 4 models**
 
