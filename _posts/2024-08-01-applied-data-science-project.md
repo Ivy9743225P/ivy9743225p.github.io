@@ -308,7 +308,7 @@ Data Types: ‘author’ (string), ‘date’ (string), ‘address’(string), �
 ![image](https://github.com/user-attachments/assets/f54eac15-ee2e-484b-87af-29b2a428d9e0)
 
 
-#### Hyperparameter Tuning & Model Evaluation 🧪
+### HYPERPARAMETER TUNING & MODEL EVALUATION 🧪
 
 Key Takeaways:
 
@@ -324,7 +324,9 @@ Key Takeaways:
 
 ### NEW PREDICTION
 
-→ Predicting new reviews (based on positive, neutral and negative sentiment) to test the 4 models. Applied the same preprocessing steps per training model.
+**Predicting new reviews (based on positive, neutral and negative sentiment) to test the 4 models**
+
+→ Applied the same preprocessing steps per training model.
 
 → Apart from relooking and prioritising on their service improvement and invest in customer service training based on above analysis, IJJ bank can also leverage on the model to predict sentiments and track customer satisfaction over time. It also helps identify pain points where the bank can relate and enable a more proactive outreach to address the issue. The bank reviews can also be used to discover trends and emerging customer needs that can help to guide the development of new products/features that align with customer preferences and pain points.
 
