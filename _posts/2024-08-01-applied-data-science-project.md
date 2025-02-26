@@ -19,11 +19,12 @@ To enhance customer retention, improve marketing strategies, and effectively res
 
 ![image](https://github.com/user-attachments/assets/ed027e87-12be-4545-baa4-6685cd5660b6)
 
-##### Objective 1 : Attract and Retain High-Value Customers (Jimmy)
+Below are the three objectives to address above problem in achieving the overall business goal. 
+#### Objective 1 : Attract and Retain High-Value Customers (Jimmy)
 Utilize customer data analytics to identify and target high-value clients.
-##### Objective 2 : Enhance Marketing Performance (Joycelyn)
+#### Objective 2 : Enhance Marketing Performance (Joycelyn)
 Implement proven marketing strategies to improve customer engagement (measured by whether a customer has signed up for term deposit in this case).
-##### Objective 3 : Analyze customer feedback related to product and services. (Ivy)
+#### Objective 3 : Analyze customer feedback related to product and services. (Ivy)
 Leverage bank review analysis to identify opportunities for enhancing IJJ's product and service offerings, ultimately improving customer experience and driving business growth.
 
 #### Tools 🔨
@@ -32,6 +33,7 @@ The tools used to develop the project:
 
 #### Work Accomplished 📔
 
+This report will focus on objective 3. 
 **Objective 3**:
 Analyze customer feedback related to product and services: Leverage bank review analysis to identify opportunities for enhancing IJJ's product and service offerings, ultimately improving customer experience and driving business growth.
 
