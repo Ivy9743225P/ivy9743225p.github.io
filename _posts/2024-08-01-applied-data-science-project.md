@@ -399,10 +399,10 @@ This is not a one-time exercise, the commitment to improvement is crucial for IJ
 ![image](https://github.com/user-attachments/assets/e026616e-3f6a-476d-a10e-9ccfac9d33e0)
 
 
-#### AI Ethics 🤖
+### AI ETHICS 🤖
 Discuss the potential data science ethics issues (privacy, fairness, accuracy, accountability, transparency) in your project. 
 
 
 
-#### Source Codes and Datasets ℹ️
+#### SOURCE CODES & DATASETS ℹ️
 Upload your model files and dataset into a GitHub repo and add the link here. 
