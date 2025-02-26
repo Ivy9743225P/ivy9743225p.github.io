@@ -34,6 +34,7 @@ The tools used to develop the project:
 #### Work Accomplished 📔
 
 This report will focus on objective 3. 
+
 **Objective 3**:
 Analyze customer feedback related to product and services: Leverage bank review analysis to identify opportunities for enhancing IJJ's product and service offerings, ultimately improving customer experience and driving business growth.
 
