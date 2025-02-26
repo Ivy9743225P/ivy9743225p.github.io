@@ -39,9 +39,9 @@ This report will focus on objective 3.
 Analyze customer feedback related to product and services: Leverage bank review analysis to identify opportunities for enhancing IJJ's product and service offerings, ultimately improving customer experience and driving business growth.
 
 
-#### Data Review 👓
+### DATA REVIEW 👓
 Data Collection Sources
-Source link: https://www.kaggle.com/code/tanshihjen/sentimentanalysis-bankreviewsdataset/input 
+Source link: https://www.kaggle.com/code/tanshihjen/sentimentanalysis-bankreviewsdataset/input
 [Total # of columns: 10 (after cleaning: 6 columns); Total # of rows: 1000]
 
 
@@ -119,7 +119,7 @@ Data Types: ‘author’ (string), ‘date’ (string), ‘address’(string), �
 ![image](https://github.com/user-attachments/assets/e28975da-5586-43f2-bbd0-434bf263fc2b)
 
 
-#### Data Cleaning/Transformation 🧼
+### DATA CLEANING & TRANSFORMATION 🧼
 
 **Kept relevant columns only** 
 
@@ -183,7 +183,7 @@ Data Types: ‘author’ (string), ‘date’ (string), ‘address’(string), �
 ![image](https://github.com/user-attachments/assets/0581d128-d677-4b7c-8379-a049cc0fd127)
 
 
-#### Data Exploration 👣
+### DATA EXPLORATION 👣
 
 **Words existing in "Review_modified" column**
 
@@ -228,7 +228,7 @@ Data Types: ‘author’ (string), ‘date’ (string), ‘address’(string), �
 
 ![image](https://github.com/user-attachments/assets/0e499c1b-9d08-4673-b2b1-9f4bf55a51d7)
 
-#### Feature Extraction ⛲
+### FEATURE EXTRACTION ⛲
 
 **Tokenization & Word Frequency/Occurences**
 
@@ -250,7 +250,7 @@ Data Types: ‘author’ (string), ‘date’ (string), ‘address’(string), �
 ![image](https://github.com/user-attachments/assets/833dc2fe-1453-4cd6-8344-3ae90213cffe)
 
 
-#### Modelling 🗜️
+### MODELLING 🗜️
 
 **<u>Model 1.1</u>**
 → Model training for predicting sentiment using multinomial logistic regression based on current dataset (skewed data)
@@ -322,7 +322,7 @@ Key Takeaways:
 ![image](https://github.com/user-attachments/assets/65853d00-226f-4f6a-95aa-bd26fc2d7593)
 
 
-**New Prediction**
+### NEW PREDICTION
 
 → Predicting new reviews (based on positive, neutral and negative sentiment) to test the 4 models. Applied the same preprocessing steps per training model.
 
@@ -354,7 +354,7 @@ We also looked at how these "resampled data" models are predicting on positive b
 ![image](https://github.com/user-attachments/assets/e74f28a3-119c-4730-aad4-0dc211e6ceeb)
 
 
-#### Final Conclusion & Recommendation 🕵️
+### FINAL CONCLUSION & RECCOMENDATION 🕵️
 
 While it is important to predict positive reviews, the identification of neutral and negative reviews are equally or more crucial. In banking, overlooking negative or neutral feedback can have serious consequences (reputational damage, regulatory issues, customer churn). We need to understand customer real feedback and thoughts, to have better overall view of customer sentiment which in the long run build more trust. Identifying negative and neutral feedback is essential for improving customer satisfaction and addressing underlying issues.
 
