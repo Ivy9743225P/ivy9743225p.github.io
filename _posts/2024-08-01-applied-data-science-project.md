@@ -5,7 +5,7 @@ title: "Applied Data Science Project"
 categories: ITD214
 ---
 
-### <b><u>BUSINESS UNDERSTANDING</u></b> 💬
+### BUSINESS UNDERSTANDING 💬
 
 
 #### Background:
