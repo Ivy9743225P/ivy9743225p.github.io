@@ -97,7 +97,7 @@ Data Types: ‘author’ (string), ‘date’ (string), ‘address’(string), �
 -Several prominent words that stand out: "account", "bank", "banking", "service", "good", "mobile", "net", "minimum", "balance", and "charge". Some of these words can be excluded as those words may not be very meaningful for sentiment analysis -> e.g. bank, banking
 -Based on this word cloud, it can be inferred that the reviews are predominantly positive and focus on core banking services like accounts, general service quality, and specific features like mobile apps.
 
-![image](https://github.com/user-attachments/assets/234972b2-fc59-4ca0-bfd4-56f468f040c9)
+![image](https://github.com/user-attachments/assets/cd76c917-edda-4808-94a6-47ca8a48ad43)
 
 
 **Create list of bank review document**
