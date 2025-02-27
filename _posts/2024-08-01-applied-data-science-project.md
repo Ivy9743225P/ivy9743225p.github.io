@@ -379,6 +379,8 @@ For the positive reviews, it can be used for marketing/brand building and streng
 
 By leveraging insights on customer sentiments, IJJ bank can **enhance their marketing strategies**, increase **customer retention** and **stengthen customer relationship**, ultimately **driving business growth**.
 
+![image](https://github.com/user-attachments/assets/ff5112c6-aa32-4482-b301-2bd2dda537ac)
+
 Rationale behind option of models: Logistics Regression and Naive Bayes models: Both are relatively computationally efficient and simple models, suitable for smaller datasets.
 
 IJJ can consider training other models (such as Random Forest, SVM or deep learning models) when the bank reviews dataset becomes larger in future.
