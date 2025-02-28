@@ -40,6 +40,9 @@ Analyze customer feedback related to product and services: Leverage bank review 
 
 ![image](https://github.com/user-attachments/assets/dbb7babf-50db-48fe-ac57-957dda20668c)
 
+![image](https://github.com/user-attachments/assets/5b69b294-164c-4edb-8080-e7a2607b8e5a)
+
+
 ## Work Accomplished
 Document your work done to accomplish the outcome
 
