@@ -127,7 +127,6 @@ Data Types: ‘author’ (string), ‘date’ (string), ‘address’(string), �
 
 ### DATA CLEANING & TRANSFORMATION 🧼
 
-![image](https://github.com/user-attachments/assets/f44dd44a-f931-4862-b1f4-0428e34a9dbc)
 
 **Kept relevant columns only** 
 
@@ -189,6 +188,8 @@ Data Types: ‘author’ (string), ‘date’ (string), ‘address’(string), �
 **Displaying the "cleansed" review (review_modified) column
 
 ![image](https://github.com/user-attachments/assets/0581d128-d677-4b7c-8379-a049cc0fd127)
+
+![image](https://github.com/user-attachments/assets/f44dd44a-f931-4862-b1f4-0428e34a9dbc)
 
 
 ### DATA EXPLORATION 📊
