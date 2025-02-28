@@ -415,28 +415,34 @@ This is not a one-time exercise, the commitment to improvement is crucial for IJ
 Discuss the potential data science ethics issues (privacy, fairness, accuracy, accountability, transparency) in your project. 
 
 #### 1. Privacy
-Concern: Sensiive/confidential information that could identify the author (customer) such as names, account details etc.
-Mitigation:  During sentiment analysis review, ensure all the reviews are anonymized (remove the author column) as before the analysis.
+**Concern:** Sensiive/confidential information that could identify the author (customer) such as names, account details etc.
+
+**Mitigation:**  During sentiment analysis review, ensure all the reviews are anonymized (remove the author column) as before the analysis.
 
 #### 2. Data Storage & Security
-Concern: Storing sensitive review data would require robust security measures to prevent unauthorized access and data breaches.
-Mitigation: Consider implementing access controls, strong encryption, and conduct regular security audits. Important to adhere to data privacy regulations like GDPR etc. 
+**Concern:** Storing sensitive review data would require robust security measures to prevent unauthorized access and data breaches.
+
+**Mitigation:** Consider implementing access controls, strong encryption, and conduct regular security audits. Important to adhere to data privacy regulations like GDPR etc. 
   
 #### 3. Accuracy & Reliability
-Concern: Some sentiment analysis models may misinterpret context or sarcasm which could lead to inaccurate sentiment classification
-Mitigation: Evaluate the model performance using diverse test dataset (reviews) to test the model prediction. Continue to collect more feedback and train the model with bigger training dataset. Explore using deep learning model such as LSTM and incorporate methods like attention mechanism to understand misclassification and improve model robustness.
+**Concern:** Some sentiment analysis models may misinterpret context or sarcasm which could lead to inaccurate sentiment classification.
+
+**Mitigation:** Evaluate the model performance using diverse test dataset (reviews) to test the model prediction. Continue to collect more feedback and train the model with bigger training dataset. Explore using deep learning model such as LSTM and incorporate methods like attention mechanism to understand misclassification and improve model robustness.
 
 #### 4. Accountability
-Concern: Incorrectly classified sentiment can affect business decision - such as wrongly flagging a neutral review as negative could lead to unnecesary customer service escalations/damage to brand reputation.
-Mitigation: Consider implementing a human-in-the-loop system where mixed/highly ambiguous sentiments are manually reviewed. Assign someone who is responsible for monitoring and correcting model outputs.
+**Concern:** Incorrectly classified sentiment can affect business decision - such as wrongly flagging a neutral review as negative could lead to unnecesary customer service escalations/damage to brand reputation.
+
+**Mitigation:** Consider implementing a human-in-the-loop system where mixed/highly ambiguous sentiments are manually reviewed. Assign someone who is responsible for monitoring and correcting model outputs.
 
 #### 5. Fairness
-Concern: Need to be wary if the training data for sentiment analysis model is biased - e.g. overrepresenting cetain demographics leading to unfair treatment of certain groups (model is trained mostly on review from native English speakers, very few exmaples from non-native speakers or gender bias in sentiment predictions)
-Mitigation: Augment the dataset with reviews from a diverse range of language backgrounds. Ensure the training dats is diverse and representative of the bank's customer base.
+**Concern:** Need to be wary if the training data for sentiment analysis model is biased - e.g. overrepresenting cetain demographics leading to unfair treatment of certain groups (model is trained mostly on review from native English speakers, very few exmaples from non-native speakers or gender bias in sentiment predictions).
+
+**Mitigation:** Augment the dataset with reviews from a diverse range of language backgrounds. Ensure the training dats is diverse and representative of the bank's customer base.
 
 #### 6. Transparency
-Concern: Understandng the model explainability - how the sentiment analysis model arrives at its conclusion. Customer should also be aware and informed about how their review data is being used and for which purpose. 
-Mitigation: Use explainable AI techniques to provide insights into the model's deicion making process, document the model's training data, architecture and performance metrics. Explain how customer feedback data is being used and protected by providing clear and concise privacy policies. Also, it's good to be transparent about the limitations of the sentiment analysis model. 
+**Concern:** Understandng the model explainability - how the sentiment analysis model arrives at its conclusion. Customer should also be aware and informed about how their review data is being used and for which purpose. 
+
+**Mitigation:** Use explainable AI techniques to provide insights into the model's deicion making process, document the model's training data, architecture and performance metrics. Explain how customer feedback data is being used and protected by providing clear and concise privacy policies. Also, it's good to be transparent about the limitations of the sentiment analysis model. 
 
 
 #### SOURCE CODES & DATASETS ℹ️
