@@ -5,9 +5,13 @@ title: "Applied Data Science Project"
 categories: ITD214
 ---
 
+## Project Background
+Provide an overviewofyour team's project business goals and objectivesandstatethe objectives that you are working on. 
+
 ### BUSINESS UNDERSTANDING 💬
 
 
+![image.png](attachment:81de2cde-ba50-4d83-a20e-a3d5c4241062.png)
 #### Background:
 IJJ Pte Ltd is a medium-sized bank headquartered in Singapore, serving a diverse clientele ranging from individual customers to small and medium enterprises (SMEs). As a growing financial institution, the bank aims to strengthen its market position by leveraging technology and data-driven strategies/insights. 
 
@@ -31,14 +35,15 @@ Leverage bank review analysis to identify opportunities for enhancing IJJ's prod
 The tools used to develop the project:
 - Jupyter Notebook - Python
 
-#### Work Accomplished 📔
-
 This report will focus on objective 3. 
 
 **Objective 3**:
 Analyze customer feedback related to product and services: Leverage bank review analysis (using sentiment analysis) to identify opportunities for **enhancing IJJ's product and service offerings**, ultimately **improving customer experience** and **driving business growth**.
 
 ![image](https://github.com/user-attachments/assets/dbb7babf-50db-48fe-ac57-957dda20668c)
+
+## Work Accomplished
+Document your work done to accomplish the outcome
 
 ### DATA REVIEW 👓
 Data Collection Sources
