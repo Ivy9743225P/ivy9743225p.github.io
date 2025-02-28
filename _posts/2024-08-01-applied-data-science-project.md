@@ -10,8 +10,6 @@ Provide an overviewofyour team's project business goals and objectivesandstateth
 
 ### BUSINESS UNDERSTANDING 💬
 
-
-![image.png](attachment:81de2cde-ba50-4d83-a20e-a3d5c4241062.png)
 #### Background:
 IJJ Pte Ltd is a medium-sized bank headquartered in Singapore, serving a diverse clientele ranging from individual customers to small and medium enterprises (SMEs). As a growing financial institution, the bank aims to strengthen its market position by leveraging technology and data-driven strategies/insights. 
 
