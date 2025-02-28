@@ -127,6 +127,8 @@ Data Types: ‘author’ (string), ‘date’ (string), ‘address’(string), �
 
 ### DATA CLEANING & TRANSFORMATION 🧼
 
+![image](https://github.com/user-attachments/assets/f44dd44a-f931-4862-b1f4-0428e34a9dbc)
+
 **Kept relevant columns only** 
 
 ![image](https://github.com/user-attachments/assets/d318f157-0ffa-419f-9a39-77128c05525b)
