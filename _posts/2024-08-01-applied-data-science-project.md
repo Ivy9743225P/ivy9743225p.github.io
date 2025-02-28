@@ -189,6 +189,7 @@ Data Types: ‘author’ (string), ‘date’ (string), ‘address’(string), �
 
 ![image](https://github.com/user-attachments/assets/0581d128-d677-4b7c-8379-a049cc0fd127)
 
+Text Preprocessing/cleansing pipeline:
 ![image](https://github.com/user-attachments/assets/f44dd44a-f931-4862-b1f4-0428e34a9dbc)
 
 
