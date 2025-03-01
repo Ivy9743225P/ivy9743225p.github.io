@@ -359,7 +359,7 @@ Key Takeaways:
 
 Generally, the models with resampled data are better at capturing neutral/negative reviews (miniority class) as compared to the models trained with imbalanced data.
 
-Let's compare both resampled models (no major difference in their performance metrics) on more neutral and negative reviews. (10 neutral and 10 negative reviews).
+Let's compare both resampled models (no major difference in their performance metrics) on <span style="color:blue;">**more neutral and negative reviews**.</span> (10 neutral and 10 negative reviews).
 
 Logistics Regression (Resampled data) -Tuned: 50% (10 correct out of 20 predictions) -> Performed slightly better as compared with NB resampled model
 Naive Bayes (Resampled data)-Tuned: 35% (7 correct out of 20 predictions)
