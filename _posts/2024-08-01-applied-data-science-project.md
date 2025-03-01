@@ -412,7 +412,7 @@ This is not a one-time exercise, the commitment to improvement is crucial for IJ
 
 
 ### AI ETHICS 🤖
-Discuss the potential data science ethics issues (privacy, fairness, accuracy, accountability, transparency) in your project. 
+Potential data science ethics issues (privacy, fairness, accuracy, accountability, transparency) in the assignment. 
 
 #### 1. Privacy
 **Concern:** Sensiive/confidential information that could identify the author (customer) such as names, account details etc.
