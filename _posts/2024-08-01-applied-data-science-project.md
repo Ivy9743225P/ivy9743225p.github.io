@@ -345,9 +345,12 @@ Key Takeaways:
 → Based on below predictions across all 4 models, Naive Bayes (Resampled data)-Tuned model has the highest number of correct predictions among the 4 models.
 
   -Logistics Regression (Imbalance data)-Tuned: 33.3% (3 correct out of 9 predictions)
+  
   -Logistics Regression (Resampled data) -Tuned 55.5% (5 correct out of 9 predictions)
+  
   -Naive Bayes (Imbalanced data)-Tune: 33.3% (3 correct out of 9 predictions)
-  -Naive Bayes (Resampled data)-Tuned: 67% (6 correct out of 9 predictions) -> Best model among all, slightly better vs LR resampled model
+
+  -<span style="color: green;">**Naive Bayes (Resampled data)-Tuned: 67% (6 correct out of 9 predictions)**</span> -> **_Best model among all, slightly better vs LR resampled model_**
 
 ![image](https://github.com/user-attachments/assets/cfc74603-5cd0-4d34-aa5a-f3804dc8d385)
 
