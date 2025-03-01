@@ -373,7 +373,7 @@ We also looked at how these "resampled data" models are predicting on <span styl
 
 ### FINAL CONCLUSION & RECCOMENDATION 🕵️
 
-While it is important to predict positive reviews, the identification of neutral and negative reviews are equally or more crucial. In banking, overlooking negative or neutral feedback can have serious consequences (reputational damage, regulatory issues, customer churn). We need to understand customer real feedback and thoughts, to have better overall view of customer sentiment which in the long run build more trust. Identifying negative and neutral feedback is essential for improving customer satisfaction and addressing underlying issues.
+While it is important to predict positive reviews, the identification of neutral and negative reviews are equally or more crucial. In banking, overlooking negative or neutral feedback can have serious consequences (reputational damage, regulatory issues, customer churn). We need to **understand customer real feedback and thoughts**, to have better overall view of customer sentiment which in the long run build more trust. **Identifying negative and neutral feedback is essential for improving customer satisfaction and addressing underlying issues.**
 
 In conclusion, <span style="color: orange;""Logistics Regression (Resampled data) -Tuned" model</span> is generally the better option for analyzing bank reviews. It provides a <span style="color: orange;">more balanced approach</span> that prioritizes accuracy and risk mitigation as compared with the other models.
 
