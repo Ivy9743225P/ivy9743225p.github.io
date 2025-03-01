@@ -368,7 +368,7 @@ We also looked at how these "resampled data" models are predicting on <span styl
   -<span style="color: green; font-weight: bold;">Logistics Regression (Resampled data) -Tuned: 50% (4 correct out of 8 predictions) </span> -> _**Performed slightly better as compared with NB resampled model**_
   -Naive Bayes (Resampled data)-Tuned: 37.5% (3 correct out of 8 predictions)
 
-![image](https://github.com/user-attachments/assets/e74f28a3-119c-4730-aad4-0dc211e6ceeb)
+![image](https://github.com/user-attachments/assets/58aa1446-8f80-4d90-810a-52a21fef0c9e)
 
 
 ### FINAL CONCLUSION & RECCOMENDATION 🕵️
