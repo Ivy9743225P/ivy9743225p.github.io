@@ -13,6 +13,8 @@ Provide an overview of your team's project business goals and objectives and sta
 #### Background:
 IJJ Pte Ltd is a medium-sized bank headquartered in Singapore, serving a diverse clientele ranging from individual customers to small and medium enterprises (SMEs). As a growing financial institution, the bank aims to strengthen its market position by leveraging technology and data-driven strategies/insights. 
 
+![image](https://github.com/user-attachments/assets/5e4e0eae-bcdb-4228-8c02-a69888a2e18e)
+
 #### Problem Statement
 IJJ Pte Ltd struggles to attract high-value customers, optimize marketing efforts, and address customer complaints, impacting customer loyalty and business growth.
 
