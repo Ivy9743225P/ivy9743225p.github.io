@@ -342,7 +342,7 @@ Key Takeaways:
 
 → Apart from relooking and prioritising on their service improvement and invest in customer service training based on above analysis, IJJ bank can also leverage on the model to predict sentiments and track customer satisfaction over time. It also helps identify pain points where the bank can relate and enable a more proactive outreach to address the issue. The bank reviews can also be used to discover trends and emerging customer needs that can help to guide the development of new products/features that align with customer preferences and pain points.
 
-→ Based on below predictions across all 4 models, Naive Bayes (Resampled data)-Tuned model has the highest number of correct predictions among the 4 models.
+→ Based on below predictions across all 4 models, <u>Naive Bayes (Resampled data)-Tuned model</u> has the highest number of correct predictions among the 4 models.
 
   -Logistics Regression (Imbalance data)-Tuned: 33.3% (3 correct out of 9 predictions)
   
