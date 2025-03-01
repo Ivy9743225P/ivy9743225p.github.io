@@ -36,7 +36,7 @@ The tools used to develop the project:
 This report will focus on objective 3. 
 
 **Objective 3**:
-Analyze customer feedback related to product and services: Leverage bank review analysis (using sentiment analysis) to identify opportunities for **enhancing IJJ's product and service offerings**, ultimately **improving customer experience** and **driving business growth**.
+Analyze customer feedback related to product and services: Leverage bank review analysis (_using sentiment analysis_) to identify opportunities for **enhancing IJJ's product and service offerings**, ultimately **improving customer experience** and **driving business growth**.
 
 ![image](https://github.com/user-attachments/assets/5b69b294-164c-4edb-8080-e7a2607b8e5a)
 
