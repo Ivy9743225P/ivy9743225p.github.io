@@ -331,7 +331,7 @@ Key Takeaways:
 
 ### NEW PREDICTION ⏳
 
-**Predicting new reviews (based on positive, neutral and negative sentiment) to test the 4 models**
+**Predicting new reviews (based on positive, neutral and negative sentiment) to test the 4 models:**
 
 → Applied the same preprocessing steps per training model.
 
@@ -350,7 +350,7 @@ Key Takeaways:
 ![image](https://github.com/user-attachments/assets/cfc74603-5cd0-4d34-aa5a-f3804dc8d385)
 
 
-**Models with Resampled data (Logistics Regression and Naive Bayes)**
+**Models with Resampled data (Logistics Regression and Naive Bayes):**
 
 Generally, the models with resampled data are better at capturing neutral/negative reviews (miniority class) as compared to the models trained with imbalanced data.
 
