@@ -387,7 +387,7 @@ The next step for IJJ would be to deploy the model for business use.
 
 2. From there, identify and categorize the negative sentiments into different groupings to **identify critical areas for improvement - customer services, product issues, new products, loan issues etc**. Mitigation/recommendation can be made on policy based on customer complaints. Training of employees based on interactions and feedback rated negatively by customers. **Tracking of sentiment trends over time** should be implemented to measure service improvement (leverage of visualization tool such as Power BI or Tableau). This will then help with driving customer experience and build trust, in **reducing the likelihood of customer leaving for competitors** (customer feel heard and will more likely to remain loyal).
 
-3. For the positive reviews, it can be used for marketing/brand building and strengthen customer relationships.
+3. For the positive reviews, it can be used for _marketing/brand building_ and _strengthen customer relationships_.
 
 **Marketing/brand building**: IJJ can consider featuring customer testimonials and feedback on bank's website/social media to boost branding and reputation. Identify what customer love in general use these insights to craft marketing messages for marketing campaigns, promote the service/products that frequently mentioned in the positive reviews.
 
