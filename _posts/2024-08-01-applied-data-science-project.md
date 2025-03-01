@@ -5,8 +5,6 @@ title: "Applied Data Science Project Documentation"
 categories: ITD214
 ---
 
-## Project Background
-Provide an overview of your team's project business goals and objectives and state the objectives that you are working on. 
 
 ### BUSINESS UNDERSTANDING 💬
 
@@ -42,9 +40,6 @@ Analyze customer feedback related to product and services: Leverage bank review 
 
 ![image](https://github.com/user-attachments/assets/5b69b294-164c-4edb-8080-e7a2607b8e5a)
 
-
-## Work Accomplished
-Document your work done to accomplish the outcome
 
 ### DATA REVIEW 👓
 Data Collection Sources
