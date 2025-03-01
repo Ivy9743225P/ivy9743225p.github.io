@@ -375,9 +375,9 @@ We also looked at how these "resampled data" models are predicting on <span styl
 
 While it is important to predict positive reviews, the identification of neutral and negative reviews are equally or more crucial. In banking, overlooking negative or neutral feedback can have serious consequences (reputational damage, regulatory issues, customer churn). We need to **understand customer real feedback and thoughts**, to have better overall view of customer sentiment which in the long run build more trust. **Identifying negative and neutral feedback is essential for improving customer satisfaction and addressing underlying issues.**
 
-In conclusion, <span style="color: orange;""Logistics Regression (Resampled data) -Tuned" model</span> is generally the better option for analyzing bank reviews. It provides a <span style="color: orange;">more balanced approach</span> that prioritizes accuracy and risk mitigation as compared with the other models.
+In conclusion, In conclusion, <span style="color:darkorange;">**"Logistics Regression (Resampled data) -Tuned" model**</span> is generally the better option for analyzing bank reviews. It provides a <span style="color:darkorange;">**more balanced approach**</span>  that prioritizes accuracy and risk mitigation as compared with the other models. is generally the better option for analyzing bank reviews. It provides a <span style="color: orange;">more balanced approach</span> that prioritizes accuracy and risk mitigation as compared with the other models.
 
-Another alternative would be to <span style="color: brown;">use both models</span> - model with resample data can be used for <span style="color: brown;">internal purpose, risk management and customer/service recovery</span> and model with imbalance data that are good at predicting positive reviews, for <span style="color: brown;">marketing purpose</span>.
+Another alternative would be to <span style="color:brown;">**use both models**</span> - model with resample data can be used for <span style="color:brown;">**internal purpose, risk management and customer/service recovery**</span> and model with imbalance data that are good at predicting positive reviews, for <span style="color:brown;">**marketing purpose**.</span>
 
 ![image](https://github.com/user-attachments/assets/a523c973-ca71-47da-b701-b88b98724010)
 
