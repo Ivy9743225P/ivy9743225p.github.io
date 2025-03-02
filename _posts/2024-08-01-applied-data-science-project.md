@@ -358,7 +358,7 @@ Let's compare both resampled models (no major difference in their performance me
 
 <span style="color: green; font-weight: bold;">-Logistics Regression (Resampled data) -Tuned: 50% (10 correct out of 20 predictions) </span> -> _**Performed slightly better as compared with NB resampled model**_
 
--Naive Bayes (Resampled data)-Tuned: 35% (7 correct out of 20 predictions)
+Naive Bayes (Resampled data)-Tuned: 35% (7 correct out of 20 predictions)
 We also looked at how these "resampled data" models are predicting on <span style="color:blue;">**positive bank reviews**.</span> as their accuracy on positive reviews could be compromised during the resampling phase. Based on 8 positive reviews:
 
 <span style="color: green; font-weight: bold;">-Logistics Regression (Resampled data) -Tuned: 50% (4 correct out of 8 predictions) </span> -> _**Performed slightly better as compared with NB resampled model**_
