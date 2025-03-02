@@ -356,14 +356,14 @@ Generally, the models with resampled data are better at capturing neutral/negati
 
 Let's compare both resampled models (no major difference in their performance metrics) on <span style="color:blue;">**more neutral and negative reviews**.</span> (10 neutral and 10 negative reviews).
 
-<span style="color: green; font-weight: bold;">Logistics Regression (Resampled data) -Tuned: 50% (10 correct out of 20 predictions) </span> -> _**Performed slightly better as compared with NB resampled model**_
+<span style="color: green; font-weight: bold;">-Logistics Regression (Resampled data) -Tuned: 50% (10 correct out of 20 predictions) </span> -> _**Performed slightly better as compared with NB resampled model**_
 
-Naive Bayes (Resampled data)-Tuned: 35% (7 correct out of 20 predictions)
+-Naive Bayes (Resampled data)-Tuned: 35% (7 correct out of 20 predictions)
 We also looked at how these "resampled data" models are predicting on <span style="color:blue;">**positive bank reviews**.</span> as their accuracy on positive reviews could be compromised during the resampling phase. Based on 8 positive reviews:
 
-  -<span style="color: green; font-weight: bold;">Logistics Regression (Resampled data) -Tuned: 50% (4 correct out of 8 predictions) </span> -> _**Performed slightly better as compared with NB resampled model**_
+  -<span style="color: green; font-weight: bold;">-Logistics Regression (Resampled data) -Tuned: 50% (4 correct out of 8 predictions) </span> -> _**Performed slightly better as compared with NB resampled model**_
   
-  -Naive Bayes (Resampled data)-Tuned: 37.5% (3 correct out of 8 predictions)
+-Naive Bayes (Resampled data)-Tuned: 37.5% (3 correct out of 8 predictions)
 
 ![image](https://github.com/user-attachments/assets/58aa1446-8f80-4d90-810a-52a21fef0c9e)
 
