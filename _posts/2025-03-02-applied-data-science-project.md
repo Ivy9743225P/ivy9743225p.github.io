@@ -447,5 +447,5 @@ Potential data science ethics issues (privacy, fairness, accuracy, accountabilit
 **Mitigation:** Use explainable AI techniques to provide insights into the model's deicion making process, document the model's training data, architecture and performance metrics. IJJ should explain how customer feedback data is being used and protected by providing clear and concise privacy policies. Also, it's good to be transparent about the limitations of the sentiment analysis model. 
 
 
-#### SOURCE CODES & DATASETS ℹ️
+### SOURCE CODES & DATASETS ℹ️
 https://github.com/Ivy9743225P/ITD214_project
